@@ -1,0 +1,43 @@
+# Core Web Framework
+fastapi==0.115.9
+uvicorn[standard]==0.32.1
+python-multipart==0.0.19
+jinja2==3.1.4
+
+# OpenAI and LLM
+openai==1.76.2
+langchain==0.3.9
+langchain-community==0.3.8
+langchain-core==0.3.21
+langchain-openai==0.2.10
+langchain-text-splitters==0.3.2
+
+# Vector Database
+faiss-cpu==1.12.0
+
+# Data Processing
+pandas==2.2.3
+numpy==1.26.4
+openpyxl==3.1.5
+beautifulsoup4==4.12.3
+
+# API Clients
+finnhub-python==2.4.25
+sec-api==1.0.32
+requests==2.32.3
+
+# Document Generation and Processing
+reportlab==4.4.2
+python-docx==1.1.2
+PyPDF2==3.0.1
+pypdf==5.1.0
+
+# Utilities
+python-dotenv==1.0.1
+PyYAML==6.0.2
+pydantic==2.9.2
+tiktoken==0.5.2
+
+# Data Visualization (optional but used in some modules)
+matplotlib==3.9.3
+scipy==1.14.1

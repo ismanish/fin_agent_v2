@@ -1,0 +1,137 @@
+ # Git ignore rules for pgim-dealio
+
+ # ----------------------------
+ # Project-specific artifacts
+ # ----------------------------
+ reports/
+ notebook/sec_tables/
+ notebook/output/
+ news-data-fetch/data/raw/dql/
+ news-data-fetch/data/processed/
+ 
+ # Outputs
+ output/
+ 
+ # Generated files
+ *.html
+ 
+ # ----------------------------
+ # Environments
+ # ----------------------------
+ .venv/
+ venv/
+ env/
+ 
+ # ----------------------------
+ # Python: caches and build
+ # ----------------------------
+ __pycache__/
+ *.py[cod]
+ *$py.class
+ *.so
+ .Python
+ build/
+ develop-eggs/
+ dist/
+ downloads/
+ eggs/
+ .eggs/
+ lib/
+ lib64/
+ parts/
+ sdist/
+ var/
+ wheels/
+ 
+ # ----------------------------
+ # Testing / Coverage
+ # ----------------------------
+ .pytest_cache/
+ .coverage
+ .coverage.*
+ htmlcov/
+ .tox/
+ .nox/
+ 
+ # ----------------------------
+ # Type checking & Linters
+ # ----------------------------
+ .mypy_cache/
+ .pytype/
+ .pyre/
+ .ruff_cache/
+ .dmypy.json
+ dmypy.json
+ 
+ # ----------------------------
+ # Notebooks
+ # ----------------------------
+ .ipynb_checkpoints/
+ 
+ # ----------------------------
+ # Logs & Caches
+ # ----------------------------
+ *.log
+ .cache/
+ 
+ # ----------------------------
+ # Editors / IDEs
+ # ----------------------------
+ .vscode/
+ .idea/
+ 
+ # ----------------------------
+ # OS files
+ # ----------------------------
+ .DS_Store
+ Thumbs.db
+ 
+ # ----------------------------
+ # Packaging
+ # ----------------------------
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment files
+.venv
+.env
+.env.*
+.env_initial
+
+# Python cache
+__pycache__
+*.pyc
+
+# Data files
+Elme Essence Table(Essence Table).csv
+data/
+
+# Logs
+logs/
+
+# Output files (generated)
+output/
+
+# Vector store (generated)
+utils/vector_store/
+utils/vector_store_old*/
+utils/chat/
+
+# Windows installer files
+*.msi
+
+# Local settings
+local.settings.json
+
+# IDE
+.vscode
+.idea
+
+# Temporary files
+*.tmp
+test_odi.py
+
+# FAISS backup
+*.faiss.bak
+*.pkl.bak
