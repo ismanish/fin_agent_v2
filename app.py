@@ -277,6 +277,8 @@ async def lineage_chat_start(req: LineageChatStartRequest):
 
     # Truncate context if it's too large to avoid exceeding OpenAI token limit
     # Keep around 40,000 characters to stay well under the 30,000 token limit
+    # Approximately 4 characters per token, so 30,000 tokens ≈ 120,000 chars
+    # We use 40,000 to leave room for system prompt and response
     MAX_CONTEXT_LENGTH = 40000
     if len(context_json) > MAX_CONTEXT_LENGTH:
         context_json = context_json[:MAX_CONTEXT_LENGTH] + "\n\n[Content truncated due to size limits. Showing first portion of logs...]"
@@ -1029,8 +1031,14 @@ async def odi_chat_message(req: ODIChatMessageRequest):
         reply = chat(user_query=message, company_ticker=ticker)
 
         # Check for error message returned by chat() function
-        if reply.startswith("System Error:") or reply.startswith("❌ LLM API Error:") or "RAG_ERROR" in reply:
-             raise HTTPException(status_code=500, detail=f"Chat execution failed: {reply}")
+        if "RAG_ERROR: FAISS index missing" in reply:
+            # Return a user-friendly message when FAISS index is not available
+            return ODIChatMessageResponse(
+                message="The On Demand Insights feature is currently being set up. The document index is being generated. Please check back in a few minutes.",
+                success=False
+            )
+        elif reply.startswith("System Error:") or reply.startswith("❌ LLM API Error:") or "RAG_ERROR" in reply:
+            raise HTTPException(status_code=500, detail=f"Chat execution failed: {reply}")
 
         return ODIChatMessageResponse(
             ticker=ticker,

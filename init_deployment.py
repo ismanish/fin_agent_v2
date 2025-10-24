@@ -32,12 +32,36 @@ def main():
     # Check if FAISS index exists
     print("\n2. Checking FAISS vector store...")
     vector_store_path = os.path.join('utils', 'vector_store', 'index.faiss')
-    
+
     if os.path.exists(vector_store_path):
         print(f"   ✅ FAISS index exists at {vector_store_path}")
+        # Check file size to ensure it's valid
+        size = os.path.getsize(vector_store_path)
+        print(f"      Size: {size:,} bytes")
     else:
         print(f"   ❌ FAISS index not found at {vector_store_path}")
-        print("   Run: python src/on_demand_insights/document_processor.py")
+        print("   🔄 Generating FAISS index...")
+
+        # Create the vector store directory if it doesn't exist
+        os.makedirs(os.path.dirname(vector_store_path), exist_ok=True)
+
+        # Try to run the document processor to generate the index
+        try:
+            import subprocess
+            result = subprocess.run(
+                [sys.executable, "src/on_demand_insights/document_processor.py"],
+                capture_output=True,
+                text=True,
+                timeout=300  # 5 minute timeout
+            )
+            if result.returncode == 0:
+                print("   ✅ FAISS index generated successfully!")
+            else:
+                print(f"   ⚠️  Warning: Could not generate FAISS index")
+                print(f"      Error: {result.stderr[:500] if result.stderr else 'Unknown error'}")
+        except Exception as e:
+            print(f"   ⚠️  Warning: Could not generate FAISS index: {str(e)}")
+            print("   You may need to run manually: python src/on_demand_insights/document_processor.py")
     
     # Check output directories
     print("\n3. Creating output directories...")
@@ -59,13 +83,9 @@ def main():
     print("\n" + "=" * 60)
     print("Initialization complete!")
     print("=" * 60)
-    
+
     if missing_vars:
         print("\nℹ️  Remember to set the missing environment variables in Railway!")
-    
-    if not os.path.exists(vector_store_path):
-        print("\nℹ️  To generate the FAISS index, run:")
-        print("   python src/on_demand_insights/document_processor.py")
 
 if __name__ == "__main__":
     main()

@@ -9,6 +9,9 @@
  news-data-fetch/data/raw/dql/
  news-data-fetch/data/processed/
  
+ # Outputs
+ output/
+ 
  # Generated files
  *.html
  
@@ -105,10 +108,10 @@ Elme Essence Table(Essence Table).csv
 data/
 
 # Logs
-# logs/ - Now tracked for Railway deployment
+logs/
 
 # Output files (generated)
-# output/ - Now tracked in Git
+output/
 
 # Vector store (generated)
 # utils/vector_store/ - Now tracked for Railway deployment

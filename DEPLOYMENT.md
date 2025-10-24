@@ -78,11 +78,19 @@ PORT=9259
    - The application uses a dedicated API endpoint `/api/v1/pdf/{ticker}` for PDF serving
    - This should work on Railway, but if issues persist, PDFs can still be downloaded
 
-2. **FAISS Index Missing**
-   - If ODI (On Demand Insights) shows errors, regenerate the FAISS index
-   - Run the document processor script after deployment
+2. **FAISS Index Missing (On Demand Insights)**
+   - The FAISS index (46MB) is not included in Git for size reasons
+   - On Demand Insights will show "being set up" message until index is created
+   - **Solution**: The index will be automatically generated during build if documents are available
+   - **Note**: ODI requires SEC filings to be present in the data folder to generate embeddings
+   - If ODI is critical, consider using Railway's persistent volumes to store the index
 
-3. **Memory Issues**
+3. **Data Lineage Token Limit**
+   - If you see "rate limit exceeded" errors with Data Lineage
+   - The app now truncates context to 40,000 characters (well under OpenAI's 30,000 TPM limit)
+   - This has been fixed in the latest version
+
+4. **Memory Issues**
    - If you encounter memory issues, consider upgrading your Railway plan
    - The FAISS index requires ~100MB of memory
 
