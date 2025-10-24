@@ -1869,7 +1869,7 @@ def build_word_bytes_from_ticker(ticker: str,
     # Add title at the end of the document
     doc.add_paragraph()
     title_para = doc.add_paragraph()
-    # title_run = title_para.add_run(f"{company_title} - Historical Financial Analysis")
+    title_run = title_para.add_run(f"{company_title} - Historical Financial Analysis")
     title_run.font.name = 'Calibri'
     title_run.font.size = Pt(14)
     title_run.font.bold = True
