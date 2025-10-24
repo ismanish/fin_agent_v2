@@ -9,9 +9,6 @@
  news-data-fetch/data/raw/dql/
  news-data-fetch/data/processed/
  
- # Outputs
- output/
- 
  # Generated files
  *.html
  
@@ -111,7 +108,7 @@ data/
 logs/
 
 # Output files (generated)
-output/
+# output/ - Now tracked in Git
 
 # Vector store (generated)
 utils/vector_store/
