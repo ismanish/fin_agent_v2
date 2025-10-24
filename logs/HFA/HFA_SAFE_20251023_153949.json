@@ -1,0 +1,4993 @@
+{
+  "ticker": "SAFE",
+  "timestamp": "20251023_153949",
+  "metrics": {
+    "Revenue": {
+      "2024": {
+        "value": 365685000.0,
+        "final_value": "365,685",
+        "calculation": "Revenues",
+        "sources": {
+          "Revenues": {
+            "value": 365685000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "Revenues",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": 352578000.0,
+        "final_value": "352,578",
+        "calculation": "Revenues",
+        "sources": {
+          "Revenues": {
+            "value": 352578000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "Revenues",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 12859000.0,
+        "final_value": "12,859",
+        "calculation": "Revenues",
+        "sources": {
+          "Revenues": {
+            "value": 12859000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "Revenues",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 16824000.0,
+        "final_value": "16,824",
+        "calculation": "Revenues",
+        "sources": {
+          "Revenues": {
+            "value": 16824000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "Revenues",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 188722000.0,
+        "final_value": "188,722",
+        "calculation": "Revenues",
+        "sources": {
+          "Revenues": {
+            "value": 188722000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2020",
+            "location": {
+              "row": "Revenues",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": 93213000.0,
+        "final_value": "93,213",
+        "calculation": "Revenues",
+        "sources": {
+          "Revenues": {
+            "value": 93213000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "Revenues",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 97677000.0,
+        "final_value": "97,677",
+        "calculation": "Revenues",
+        "sources": {
+          "Revenues": {
+            "value": 97677000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "Revenues",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 370149000.0,
+        "final_value": "370,149",
+        "calculation": "2024 + YTD 2025 - YTD 2024",
+        "sources": {
+          "Revenues": {
+            "value": 93213000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "Revenues",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "% YoY Growth": {
+      "2024": {
+        "value": 3.7174752820652452,
+        "final_value": "3.7%",
+        "calculation": "(Revenues[2024] - Revenues[2023]) / Revenues[2023] * 100",
+        "sources": {
+          "Revenues": {
+            "value": 352578000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "Revenues",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": 2641.8772843922543,
+        "final_value": "2641.9%",
+        "calculation": "(Revenues[2023] - Revenues[2022]) / Revenues[2022] * 100",
+        "sources": {
+          "Revenues": {
+            "value": 12859000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "Revenues",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": -23.56752258678079,
+        "final_value": "(23.6%)",
+        "calculation": "(Revenues[2022] - Revenues[2021]) / Revenues[2021] * 100",
+        "sources": {
+          "Revenues": {
+            "value": 16824000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "Revenues",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": -91.0853000710039,
+        "final_value": "(91.1%)",
+        "calculation": "(Revenues[2021] - Revenues[2020]) / Revenues[2020] * 100",
+        "sources": {
+          "Revenues": {
+            "value": 188722000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2020",
+            "location": {
+              "row": "Revenues",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": null,
+        "final_value": null,
+        "calculation": "Previous year data not available",
+        "sources": {}
+      },
+      "YTD 2024": {
+        "value": null,
+        "final_value": null,
+        "calculation": "((Revenues (2025-03-31) - Revenues (2024-03-31)) / Revenues (2024-03-31)) * 100",
+        "sources": {
+          "Revenues": {
+            "value": 93213000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "Revenues",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": null,
+        "final_value": null,
+        "calculation": "((Revenues (2025-03-31) - Revenues (2024-03-31)) / Revenues (2024-03-31)) * 100",
+        "sources": {
+          "Revenues": {
+            "value": 97677000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "Revenues",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": null,
+        "final_value": null,
+        "calculation": "2024 + YTD 2025 - YTD 2024",
+        "sources": {
+          "Revenues": {
+            "value": 93213000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "Revenues",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Cost of Goods Sold": {
+      "2024": {
+        "value": 4224000.0,
+        "final_value": "4,224",
+        "calculation": "CostOfGoodsAndServicesSold",
+        "sources": {
+          "CostOfGoodsAndServicesSold": {
+            "value": 4224000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "CostOfGoodsAndServicesSold",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": 4653000.0,
+        "final_value": "4,653",
+        "calculation": "CostOfGoodsAndServicesSold",
+        "sources": {
+          "CostOfGoodsAndServicesSold": {
+            "value": 4653000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "CostOfGoodsAndServicesSold",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 3110000.0,
+        "final_value": "3,110",
+        "calculation": "CostOfGoodsAndServicesSold",
+        "sources": {
+          "CostOfGoodsAndServicesSold": {
+            "value": 3110000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "CostOfGoodsAndServicesSold",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 2663000.0,
+        "final_value": "2,663",
+        "calculation": "CostOfGoodsAndServicesSold",
+        "sources": {
+          "CostOfGoodsAndServicesSold": {
+            "value": 2663000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "CostOfGoodsAndServicesSold",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 0.0,
+        "final_value": "0",
+        "calculation": "CostOfGoodsAndServicesSold",
+        "sources": {}
+      },
+      "YTD 2024": {
+        "value": 1079000.0,
+        "final_value": "1,079",
+        "calculation": "CostOfGoodsAndServicesSold",
+        "sources": {
+          "CostOfGoodsAndServicesSold": {
+            "value": 1079000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "CostOfGoodsAndServicesSold",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 1158000.0,
+        "final_value": "1,158",
+        "calculation": "CostOfGoodsAndServicesSold",
+        "sources": {
+          "CostOfGoodsAndServicesSold": {
+            "value": 1158000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "CostOfGoodsAndServicesSold",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 4303000.0,
+        "final_value": "4,303",
+        "calculation": "2024 + YTD 2025 - YTD 2024",
+        "sources": {
+          "CostOfGoodsAndServicesSold": {
+            "value": 1079000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "CostOfGoodsAndServicesSold",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Gross Profit": {
+      "2024": {
+        "value": 361461000.0,
+        "final_value": "361,461",
+        "calculation": "Revenues - CostOfGoodsAndServicesSold",
+        "sources": {
+          "CostOfGoodsAndServicesSold": {
+            "value": 4224000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "CostOfGoodsAndServicesSold",
+              "column": "2024"
+            }
+          },
+          "Revenues": {
+            "value": 365685000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "Revenues",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": 347925000.0,
+        "final_value": "347,925",
+        "calculation": "Revenues - CostOfGoodsAndServicesSold",
+        "sources": {
+          "CostOfGoodsAndServicesSold": {
+            "value": 4653000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "CostOfGoodsAndServicesSold",
+              "column": "2023"
+            }
+          },
+          "Revenues": {
+            "value": 352578000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "Revenues",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 9749000.0,
+        "final_value": "9,749",
+        "calculation": "Revenues - CostOfGoodsAndServicesSold",
+        "sources": {
+          "CostOfGoodsAndServicesSold": {
+            "value": 3110000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "CostOfGoodsAndServicesSold",
+              "column": "2022"
+            }
+          },
+          "Revenues": {
+            "value": 12859000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "Revenues",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 14161000.0,
+        "final_value": "14,161",
+        "calculation": "Revenues - CostOfGoodsAndServicesSold",
+        "sources": {
+          "CostOfGoodsAndServicesSold": {
+            "value": 2663000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "CostOfGoodsAndServicesSold",
+              "column": "2021"
+            }
+          },
+          "Revenues": {
+            "value": 16824000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "Revenues",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 188722000.0,
+        "final_value": "188,722",
+        "calculation": "Revenues - CostOfGoodsAndServicesSold",
+        "sources": {
+          "Revenues": {
+            "value": 188722000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2020",
+            "location": {
+              "row": "Revenues",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": 92134000.0,
+        "final_value": "92,134",
+        "calculation": "Revenues - CostOfGoodsAndServicesSold",
+        "sources": {
+          "CostOfGoodsAndServicesSold": {
+            "value": 1079000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "CostOfGoodsAndServicesSold",
+              "column": "2024-03-31"
+            }
+          },
+          "Revenues": {
+            "value": 93213000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "Revenues",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 96519000.0,
+        "final_value": "96,519",
+        "calculation": "Revenues - CostOfGoodsAndServicesSold",
+        "sources": {
+          "CostOfGoodsAndServicesSold": {
+            "value": 1158000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "CostOfGoodsAndServicesSold",
+              "column": "2025-03-31"
+            }
+          },
+          "Revenues": {
+            "value": 97677000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "Revenues",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 365846000.0,
+        "final_value": "365,846",
+        "calculation": "2024 + YTD 2025 - YTD 2024",
+        "sources": {
+          "CostOfGoodsAndServicesSold": {
+            "value": 1079000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "CostOfGoodsAndServicesSold",
+              "column": "2024-03-31"
+            }
+          },
+          "Revenues": {
+            "value": 93213000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "Revenues",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "% Margin": {
+      "2024": {
+        "value": 23.81366476612385,
+        "final_value": "23.8%",
+        "calculation": "Adjusted EBITDA / Revenue * 100",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": 87083000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2024"
+            }
+          },
+          "Revenues": {
+            "value": 365685000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "Revenues",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": -21.86041102961614,
+        "final_value": "(21.9%)",
+        "calculation": "Adjusted EBITDA / Revenue * 100",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": -77075000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2023"
+            }
+          },
+          "Revenues": {
+            "value": 352578000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "Revenues",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 1054.7398709075355,
+        "final_value": "1054.7%",
+        "calculation": "Adjusted EBITDA / Revenue * 100",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": 135629000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2022"
+            }
+          },
+          "Revenues": {
+            "value": 12859000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "Revenues",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 389.0929624346172,
+        "final_value": "389.1%",
+        "calculation": "Adjusted EBITDA / Revenue * 100",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": 65461000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2021"
+            }
+          },
+          "Revenues": {
+            "value": 16824000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "Revenues",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 0.0,
+        "final_value": "0.0%",
+        "calculation": "Adjusted EBITDA / Revenue * 100",
+        "sources": {
+          "Revenues": {
+            "value": 188722000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2020",
+            "location": {
+              "row": "Revenues",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": null,
+        "final_value": null,
+        "calculation": "(Adjusted EBITDA / Revenues) * 100",
+        "sources": {
+          "Revenues": {
+            "value": 93213000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "Revenues",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": null,
+        "final_value": null,
+        "calculation": "(Adjusted EBITDA / Revenues) * 100",
+        "sources": {
+          "Revenues": {
+            "value": 97677000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "Revenues",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 98.83749517086362,
+        "final_value": "98.8%",
+        "calculation": "Gross Profit / Revenue * 100",
+        "sources": {
+          "CostOfGoodsAndServicesSold": {
+            "value": 1079000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "CostOfGoodsAndServicesSold",
+              "column": "2024-03-31"
+            }
+          },
+          "Revenues": {
+            "value": 93213000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "Revenues",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Operating Expenses": {
+      "2024": {
+        "value": 66847000.0,
+        "final_value": "66,847",
+        "calculation": "GeneralAndAdministrativeExpense + DepreciationAndAmortization + OtherExpenses",
+        "sources": {
+          "DepreciationAndAmortization": {
+            "value": 9947000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2024"
+            }
+          },
+          "OtherExpenses": {
+            "value": 1983000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "OtherExpenses",
+              "column": "2024"
+            }
+          },
+          "GeneralAndAdministrativeExpense": {
+            "value": 54917000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "GeneralAndAdministrativeExpense",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": 96367000.0,
+        "final_value": "96,367",
+        "calculation": "GeneralAndAdministrativeExpense + DepreciationAndAmortization + OtherExpenses",
+        "sources": {
+          "DepreciationAndAmortization": {
+            "value": 9936000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2023"
+            }
+          },
+          "OtherExpenses": {
+            "value": 17862000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "OtherExpenses",
+              "column": "2023"
+            }
+          },
+          "GeneralAndAdministrativeExpense": {
+            "value": 68569000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "GeneralAndAdministrativeExpense",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 35654000.0,
+        "final_value": "35,654",
+        "calculation": "GeneralAndAdministrativeExpense + DepreciationAndAmortization + OtherExpenses",
+        "sources": {
+          "DepreciationAndAmortization": {
+            "value": 5470000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2022"
+            }
+          },
+          "OtherExpenses": {
+            "value": 8913000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "OtherExpenses",
+              "column": "2022"
+            }
+          },
+          "GeneralAndAdministrativeExpense": {
+            "value": 21271000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "GeneralAndAdministrativeExpense",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 146889000.0,
+        "final_value": "146,889",
+        "calculation": "GeneralAndAdministrativeExpense + DepreciationAndAmortization + OtherExpenses",
+        "sources": {
+          "DepreciationAndAmortization": {
+            "value": 7072000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2021"
+            }
+          },
+          "OtherExpenses": {
+            "value": 8114000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "OtherExpenses",
+              "column": "2021"
+            }
+          },
+          "GeneralAndAdministrativeExpense": {
+            "value": 131703000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "GeneralAndAdministrativeExpense",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 159540000.0,
+        "final_value": "159,540",
+        "calculation": "GeneralAndAdministrativeExpense + DepreciationAndAmortization + OtherExpenses",
+        "sources": {
+          "DepreciationAndAmortization": {
+            "value": 58092000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2020",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2020"
+            }
+          },
+          "OtherExpenses": {
+            "value": 569000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2020",
+            "location": {
+              "row": "OtherExpenses",
+              "column": "2020"
+            }
+          },
+          "GeneralAndAdministrativeExpense": {
+            "value": 100879000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2020",
+            "location": {
+              "row": "GeneralAndAdministrativeExpense",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": 18915000.0,
+        "final_value": "18,915",
+        "calculation": "GeneralAndAdministrativeExpense + DepreciationAndAmortization + OtherExpenses + ProvisionForLoanLeaseAndOtherLosses",
+        "sources": {
+          "DepreciationAndAmortization": {
+            "value": 2487000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2024-03-31"
+            }
+          },
+          "OtherExpenses": {
+            "value": 91000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "OtherExpenses",
+              "column": "2024-03-31"
+            }
+          },
+          "ProvisionForLoanLeaseAndOtherLosses": {
+            "value": 709000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "ProvisionForLoanLeaseAndOtherLosses",
+              "column": "2024-03-31"
+            }
+          },
+          "GeneralAndAdministrativeExpense": {
+            "value": 15628000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "GeneralAndAdministrativeExpense",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 20792000.0,
+        "final_value": "20,792",
+        "calculation": "GeneralAndAdministrativeExpense + DepreciationAndAmortization + OtherExpenses + ProvisionForLoanLeaseAndOtherLosses",
+        "sources": {
+          "DepreciationAndAmortization": {
+            "value": 2196000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2025-03-31"
+            }
+          },
+          "OtherExpenses": {
+            "value": 2168000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "OtherExpenses",
+              "column": "2025-03-31"
+            }
+          },
+          "ProvisionForLoanLeaseAndOtherLosses": {
+            "value": 2296000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "ProvisionForLoanLeaseAndOtherLosses",
+              "column": "2025-03-31"
+            }
+          },
+          "GeneralAndAdministrativeExpense": {
+            "value": 14132000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "GeneralAndAdministrativeExpense",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 68724000.0,
+        "final_value": "68,724",
+        "calculation": "2024 + YTD 2025 - YTD 2024",
+        "sources": {
+          "DepreciationAndAmortization": {
+            "value": 2487000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2024-03-31"
+            }
+          },
+          "OtherExpenses": {
+            "value": 91000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "OtherExpenses",
+              "column": "2024-03-31"
+            }
+          },
+          "GeneralAndAdministrativeExpense": {
+            "value": 15628000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "GeneralAndAdministrativeExpense",
+              "column": "2024-03-31"
+            }
+          },
+          "ProvisionForLoanLeaseAndOtherLosses": {
+            "value": 709000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "ProvisionForLoanLeaseAndOtherLosses",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Adjustments": {
+      "2024": {
+        "value": 40619000.0,
+        "final_value": "40,619",
+        "calculation": "DepreciationAndAmortization + AssetImpairmentCharges + ShareBasedCompensation + AmortizationOfFinancingCostsAndDiscounts + ProvisionForLoanLeaseAndOtherLosses",
+        "sources": {
+          "ProvisionForLoanLeaseAndOtherLosses": {
+            "value": 9489000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "ProvisionForLoanLeaseAndOtherLosses",
+              "column": "2024"
+            }
+          },
+          "AmortizationOfFinancingCostsAndDiscounts": {
+            "value": 7426000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2024",
+            "location": {
+              "row": "AmortizationOfFinancingCostsAndDiscounts",
+              "column": "2024"
+            }
+          },
+          "DepreciationAndAmortization": {
+            "value": 9947000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2024"
+            }
+          },
+          "ShareBasedCompensation": {
+            "value": 13757000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2024",
+            "location": {
+              "row": "ShareBasedCompensation",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": 43158000.0,
+        "final_value": "43,158",
+        "calculation": "DepreciationAndAmortization + AssetImpairmentCharges + ShareBasedCompensation + AmortizationOfFinancingCostsAndDiscounts + ProvisionForLoanLeaseAndOtherLosses",
+        "sources": {
+          "ProvisionForLoanLeaseAndOtherLosses": {
+            "value": 2704000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "ProvisionForLoanLeaseAndOtherLosses",
+              "column": "2023"
+            }
+          },
+          "AmortizationOfFinancingCostsAndDiscounts": {
+            "value": 7288000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2023",
+            "location": {
+              "row": "AmortizationOfFinancingCostsAndDiscounts",
+              "column": "2023"
+            }
+          },
+          "DepreciationAndAmortization": {
+            "value": 9936000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2023"
+            }
+          },
+          "ShareBasedCompensation": {
+            "value": 23230000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2023",
+            "location": {
+              "row": "ShareBasedCompensation",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 2237000.0,
+        "final_value": "2,237",
+        "calculation": "DepreciationAndAmortization + AssetImpairmentCharges + ShareBasedCompensation + AmortizationOfFinancingCostsAndDiscounts + ProvisionForLoanLeaseAndOtherLosses",
+        "sources": {
+          "AssetImpairmentCharges": {
+            "value": 15109000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "AssetImpairmentCharges",
+              "column": "2022"
+            }
+          },
+          "AmortizationOfFinancingCostsAndDiscounts": {
+            "value": 9322000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2022",
+            "location": {
+              "row": "AmortizationOfFinancingCostsAndDiscounts",
+              "column": "2022"
+            }
+          },
+          "DepreciationAndAmortization": {
+            "value": 5470000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2022"
+            }
+          },
+          "ShareBasedCompensation": {
+            "value": -27664000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2022",
+            "location": {
+              "row": "ShareBasedCompensation",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 85583000.0,
+        "final_value": "85,583",
+        "calculation": "DepreciationAndAmortization + AssetImpairmentCharges + ShareBasedCompensation + AmortizationOfFinancingCostsAndDiscounts + ProvisionForLoanLeaseAndOtherLosses",
+        "sources": {
+          "AssetImpairmentCharges": {
+            "value": 678000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "AssetImpairmentCharges",
+              "column": "2021"
+            }
+          },
+          "AmortizationOfFinancingCostsAndDiscounts": {
+            "value": 8572000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2021",
+            "location": {
+              "row": "AmortizationOfFinancingCostsAndDiscounts",
+              "column": "2021"
+            }
+          },
+          "DepreciationAndAmortization": {
+            "value": 7072000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2021"
+            }
+          },
+          "ShareBasedCompensation": {
+            "value": 69261000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2021",
+            "location": {
+              "row": "ShareBasedCompensation",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 118601000.0,
+        "final_value": "118,601",
+        "calculation": "DepreciationAndAmortization + AssetImpairmentCharges + ShareBasedCompensation + AmortizationOfFinancingCostsAndDiscounts + ProvisionForLoanLeaseAndOtherLosses",
+        "sources": {
+          "AssetImpairmentCharges": {
+            "value": 7827000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2020",
+            "location": {
+              "row": "AssetImpairmentCharges",
+              "column": "2020"
+            }
+          },
+          "AmortizationOfFinancingCostsAndDiscounts": {
+            "value": 13328000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2020",
+            "location": {
+              "row": "AmortizationOfFinancingCostsAndDiscounts",
+              "column": "2020"
+            }
+          },
+          "DepreciationAndAmortization": {
+            "value": 58092000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2020",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2020"
+            }
+          },
+          "ShareBasedCompensation": {
+            "value": 39354000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2020",
+            "location": {
+              "row": "ShareBasedCompensation",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": 41817000.0,
+        "final_value": "41,817",
+        "calculation": "DepreciationAndAmortization + ShareBasedCompensation + StraightLineRent + NonCashInterestIncomeFromSalesTypeLeases + InterestExpenseNoncashAccretion + AmortizationOfAboveAndBelowMarketLeases + ProvisionForLoanLeaseAndOtherLosses + IncomeLossFromEquityMethodInvestments + AmortizationOfFinancingCostsAndDiscounts + OtherOperatingActivitiesCashFlowStatement",
+        "sources": {
+          "ProvisionForLoanLeaseAndOtherLosses": {
+            "value": 709000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "ProvisionForLoanLeaseAndOtherLosses",
+              "column": "2024-03-31"
+            }
+          },
+          "OtherOperatingActivitiesCashFlowStatement": {
+            "value": -1877000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "OtherOperatingActivitiesCashFlowStatement",
+              "column": "2024-03-31"
+            }
+          },
+          "AmortizationOfFinancingCostsAndDiscounts": {
+            "value": 1862000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "AmortizationOfFinancingCostsAndDiscounts",
+              "column": "2024-03-31"
+            }
+          },
+          "NonCashInterestIncomeFromSalesTypeLeases": {
+            "value": 21857000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "NonCashInterestIncomeFromSalesTypeLeases",
+              "column": "2024-03-31"
+            }
+          },
+          "AmortizationOfAboveAndBelowMarketLeases": {
+            "value": 577000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "AmortizationOfAboveAndBelowMarketLeases",
+              "column": "2024-03-31"
+            }
+          },
+          "DepreciationAndAmortization": {
+            "value": 2487000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2024-03-31"
+            }
+          },
+          "StraightLineRent": {
+            "value": 7718000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "StraightLineRent",
+              "column": "2024-03-31"
+            }
+          },
+          "ShareBasedCompensation": {
+            "value": 4765000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "ShareBasedCompensation",
+              "column": "2024-03-31"
+            }
+          },
+          "IncomeLossFromEquityMethodInvestments": {
+            "value": 3719000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "IncomeLossFromEquityMethodInvestments",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 46802000.0,
+        "final_value": "46,802",
+        "calculation": "DepreciationAndAmortization + ShareBasedCompensation + StraightLineRent + NonCashInterestIncomeFromSalesTypeLeases + InterestExpenseNoncashAccretion + AmortizationOfAboveAndBelowMarketLeases + ProvisionForLoanLeaseAndOtherLosses + IncomeLossFromEquityMethodInvestments + AmortizationOfFinancingCostsAndDiscounts + OtherOperatingActivitiesCashFlowStatement",
+        "sources": {
+          "ProvisionForLoanLeaseAndOtherLosses": {
+            "value": 2296000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "ProvisionForLoanLeaseAndOtherLosses",
+              "column": "2025-03-31"
+            }
+          },
+          "OtherOperatingActivitiesCashFlowStatement": {
+            "value": -723000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "OtherOperatingActivitiesCashFlowStatement",
+              "column": "2025-03-31"
+            }
+          },
+          "InterestExpenseNoncashAccretion": {
+            "value": 2721000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "InterestExpenseNoncashAccretion",
+              "column": "2025-03-31"
+            }
+          },
+          "AmortizationOfFinancingCostsAndDiscounts": {
+            "value": 2051000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "AmortizationOfFinancingCostsAndDiscounts",
+              "column": "2025-03-31"
+            }
+          },
+          "NonCashInterestIncomeFromSalesTypeLeases": {
+            "value": 24389000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "NonCashInterestIncomeFromSalesTypeLeases",
+              "column": "2025-03-31"
+            }
+          },
+          "AmortizationOfAboveAndBelowMarketLeases": {
+            "value": 578000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "AmortizationOfAboveAndBelowMarketLeases",
+              "column": "2025-03-31"
+            }
+          },
+          "DepreciationAndAmortization": {
+            "value": 2196000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2025-03-31"
+            }
+          },
+          "StraightLineRent": {
+            "value": 7615000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "StraightLineRent",
+              "column": "2025-03-31"
+            }
+          },
+          "ShareBasedCompensation": {
+            "value": 3487000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "ShareBasedCompensation",
+              "column": "2025-03-31"
+            }
+          },
+          "IncomeLossFromEquityMethodInvestments": {
+            "value": 2192000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "IncomeLossFromEquityMethodInvestments",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 45604000.0,
+        "final_value": "45,604",
+        "calculation": "2024 + YTD 2025 - YTD 2024",
+        "sources": {
+          "ProvisionForLoanLeaseAndOtherLosses": {
+            "value": 709000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "ProvisionForLoanLeaseAndOtherLosses",
+              "column": "2024-03-31"
+            }
+          },
+          "AmortizationOfFinancingCostsAndDiscounts": {
+            "value": 1862000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "AmortizationOfFinancingCostsAndDiscounts",
+              "column": "2024-03-31"
+            }
+          },
+          "DepreciationAndAmortization": {
+            "value": 2487000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2024-03-31"
+            }
+          },
+          "ShareBasedCompensation": {
+            "value": 4765000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "ShareBasedCompensation",
+              "column": "2024-03-31"
+            }
+          },
+          "OtherOperatingActivitiesCashFlowStatement": {
+            "value": -1877000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "OtherOperatingActivitiesCashFlowStatement",
+              "column": "2024-03-31"
+            }
+          },
+          "InterestExpenseNoncashAccretion": {
+            "value": 2721000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "InterestExpenseNoncashAccretion",
+              "column": "2025-03-31"
+            }
+          },
+          "NonCashInterestIncomeFromSalesTypeLeases": {
+            "value": 21857000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "NonCashInterestIncomeFromSalesTypeLeases",
+              "column": "2024-03-31"
+            }
+          },
+          "AmortizationOfAboveAndBelowMarketLeases": {
+            "value": 577000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "AmortizationOfAboveAndBelowMarketLeases",
+              "column": "2024-03-31"
+            }
+          },
+          "StraightLineRent": {
+            "value": 7718000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "StraightLineRent",
+              "column": "2024-03-31"
+            }
+          },
+          "IncomeLossFromEquityMethodInvestments": {
+            "value": 3719000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "IncomeLossFromEquityMethodInvestments",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Adjusted EBITDA": {
+      "2024": {
+        "value": 87083000.0,
+        "final_value": "87,083",
+        "calculation": "OperatingIncomeLoss + Adjustments",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": 87083000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": -77075000.0,
+        "final_value": "(77,075)",
+        "calculation": "OperatingIncomeLoss + Adjustments",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": -77075000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 135629000.0,
+        "final_value": "135,629",
+        "calculation": "OperatingIncomeLoss + Adjustments",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": 135629000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 65461000.0,
+        "final_value": "65,461",
+        "calculation": "OperatingIncomeLoss + Adjustments",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": 65461000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 0.0,
+        "final_value": "0",
+        "calculation": "OperatingIncomeLoss + Adjustments",
+        "sources": {}
+      },
+      "YTD 2024": {
+        "value": 66405000.0,
+        "final_value": "66,405",
+        "calculation": "OperatingIncomeLoss + Adjustments",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": 24588000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 72103000.0,
+        "final_value": "72,103",
+        "calculation": "OperatingIncomeLoss + Adjustments",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": 25301000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 92781000.0,
+        "final_value": "92,781",
+        "calculation": "2024 + YTD 2025 - YTD 2024",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": 24588000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Interest Expense": {
+      "2024": {
+        "value": 198042000.0,
+        "final_value": "198,042",
+        "calculation": "InterestExpenseOperating",
+        "sources": {
+          "InterestExpenseOperating": {
+            "value": 198042000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "InterestExpenseOperating",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": 181011000.0,
+        "final_value": "181,011",
+        "calculation": "InterestExpenseOperating",
+        "sources": {
+          "InterestExpenseOperating": {
+            "value": 181011000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "InterestExpenseOperating",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 128969000.0,
+        "final_value": "128,969",
+        "calculation": "InterestExpenseOperating",
+        "sources": {
+          "InterestExpenseOperating": {
+            "value": 128969000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "InterestExpenseOperating",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 0.0,
+        "final_value": "0",
+        "calculation": "InterestExpenseOperating",
+        "sources": {}
+      },
+      "2020": {
+        "value": 0.0,
+        "final_value": "0",
+        "calculation": "InterestExpenseOperating",
+        "sources": {}
+      },
+      "YTD 2024": {
+        "value": 0.0,
+        "final_value": "0",
+        "calculation": "InterestExpenseOperating + InterestExpenseNoncashAccretion",
+        "sources": {}
+      },
+      "YTD 2025": {
+        "value": 53147000.0,
+        "final_value": "53,147",
+        "calculation": "InterestExpenseOperating + InterestExpenseNoncashAccretion",
+        "sources": {
+          "InterestExpenseOperating": {
+            "value": 50426000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "InterestExpenseOperating",
+              "column": "2025-03-31"
+            }
+          },
+          "InterestExpenseNoncashAccretion": {
+            "value": 2721000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "InterestExpenseNoncashAccretion",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 251189000.0,
+        "final_value": "251,189",
+        "calculation": "2024 + YTD 2025 - YTD 2024",
+        "sources": {
+          "InterestExpenseOperating": {
+            "value": 50426000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "InterestExpenseOperating",
+              "column": "2025-03-31"
+            }
+          },
+          "InterestExpenseNoncashAccretion": {
+            "value": 2721000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "InterestExpenseNoncashAccretion",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Taxes": {
+      "2024": {
+        "value": 3445000.0,
+        "final_value": "3,445",
+        "calculation": "IncomeTaxExpenseBenefit",
+        "sources": {
+          "IncomeTaxExpenseBenefit": {
+            "value": 3445000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "IncomeTaxExpenseBenefit",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": 1719000.0,
+        "final_value": "1,719",
+        "calculation": "IncomeTaxExpenseBenefit",
+        "sources": {
+          "IncomeTaxExpenseBenefit": {
+            "value": 1719000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "IncomeTaxExpenseBenefit",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 567000.0,
+        "final_value": "567",
+        "calculation": "IncomeTaxExpenseBenefit",
+        "sources": {
+          "IncomeTaxExpenseBenefit": {
+            "value": 567000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "IncomeTaxExpenseBenefit",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": -118000.0,
+        "final_value": "(118)",
+        "calculation": "IncomeTaxExpenseBenefit",
+        "sources": {
+          "IncomeTaxExpenseBenefit": {
+            "value": -118000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "IncomeTaxExpenseBenefit",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 235000.0,
+        "final_value": "235",
+        "calculation": "IncomeTaxExpenseBenefit",
+        "sources": {
+          "IncomeTaxExpenseBenefit": {
+            "value": 235000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2020",
+            "location": {
+              "row": "IncomeTaxExpenseBenefit",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": 471000.0,
+        "final_value": "471",
+        "calculation": "IncomeTaxExpenseBenefit",
+        "sources": {
+          "IncomeTaxExpenseBenefit": {
+            "value": 471000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "IncomeTaxExpenseBenefit",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 883000.0,
+        "final_value": "883",
+        "calculation": "IncomeTaxExpenseBenefit",
+        "sources": {
+          "IncomeTaxExpenseBenefit": {
+            "value": 883000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "IncomeTaxExpenseBenefit",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 3857000.0,
+        "final_value": "3,857",
+        "calculation": "2024 + YTD 2025 - YTD 2024",
+        "sources": {
+          "IncomeTaxExpenseBenefit": {
+            "value": 471000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "IncomeTaxExpenseBenefit",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Change in Working Capital": {
+      "2024": {
+        "value": 2807000.0,
+        "final_value": "2,807",
+        "calculation": "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities + IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+        "sources": {
+          "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets": {
+            "value": -5263000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2024",
+            "location": {
+              "row": "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+              "column": "2024"
+            }
+          },
+          "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities": {
+            "value": 8070000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2024",
+            "location": {
+              "row": "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": -19047000.0,
+        "final_value": "(19,047)",
+        "calculation": "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities + IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+        "sources": {
+          "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets": {
+            "value": -13080000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2023",
+            "location": {
+              "row": "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+              "column": "2023"
+            }
+          },
+          "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities": {
+            "value": -5967000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2023",
+            "location": {
+              "row": "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": -33704000.0,
+        "final_value": "(33,704)",
+        "calculation": "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities + IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+        "sources": {
+          "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets": {
+            "value": 17562000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2022",
+            "location": {
+              "row": "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+              "column": "2022"
+            }
+          },
+          "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities": {
+            "value": -51266000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2022",
+            "location": {
+              "row": "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 10231000.0,
+        "final_value": "10,231",
+        "calculation": "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities + IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+        "sources": {
+          "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets": {
+            "value": 11995000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2021",
+            "location": {
+              "row": "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+              "column": "2021"
+            }
+          },
+          "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities": {
+            "value": -1764000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2021",
+            "location": {
+              "row": "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 3488000.0,
+        "final_value": "3,488",
+        "calculation": "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities + IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+        "sources": {
+          "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets": {
+            "value": 5351000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2020",
+            "location": {
+              "row": "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+              "column": "2020"
+            }
+          },
+          "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities": {
+            "value": -1863000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2020",
+            "location": {
+              "row": "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": -8670000.0,
+        "final_value": "(8,670)",
+        "calculation": "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets + IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+        "sources": {
+          "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets": {
+            "value": 1992000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+              "column": "2024-03-31"
+            }
+          },
+          "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities": {
+            "value": -10662000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 4261000.0,
+        "final_value": "4,261",
+        "calculation": "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets + IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+        "sources": {
+          "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets": {
+            "value": 2770000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+              "column": "2025-03-31"
+            }
+          },
+          "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities": {
+            "value": 1491000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 15738000.0,
+        "final_value": "15,738",
+        "calculation": "2024 + YTD 2025 - YTD 2024",
+        "sources": {
+          "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets": {
+            "value": 1992000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "IncreaseDecreaseInPrepaidDeferredExpenseAndOtherAssets",
+              "column": "2024-03-31"
+            }
+          },
+          "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities": {
+            "value": -10662000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Other": {
+      "2024": {
+        "value": 0.0,
+        "final_value": "0",
+        "calculation": "ProceedsFromPaymentsForOtherFinancingActivities",
+        "sources": {}
+      },
+      "2023": {
+        "value": -137000.0,
+        "final_value": "(137)",
+        "calculation": "ProceedsFromPaymentsForOtherFinancingActivities",
+        "sources": {
+          "ProceedsFromPaymentsForOtherFinancingActivities": {
+            "value": -137000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2023",
+            "location": {
+              "row": "ProceedsFromPaymentsForOtherFinancingActivities",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": -153000.0,
+        "final_value": "(153)",
+        "calculation": "ProceedsFromPaymentsForOtherFinancingActivities",
+        "sources": {
+          "ProceedsFromPaymentsForOtherFinancingActivities": {
+            "value": -153000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2022",
+            "location": {
+              "row": "ProceedsFromPaymentsForOtherFinancingActivities",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 0.0,
+        "final_value": "0",
+        "calculation": "ProceedsFromPaymentsForOtherFinancingActivities",
+        "sources": {}
+      },
+      "2020": {
+        "value": 0.0,
+        "final_value": "0",
+        "calculation": "ProceedsFromPaymentsForOtherFinancingActivities",
+        "sources": {
+          "ProceedsFromPaymentsForOtherFinancingActivities": {
+            "value": 0.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2020",
+            "location": {
+              "row": "ProceedsFromPaymentsForOtherFinancingActivities",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": 7926000.0,
+        "final_value": "7,926",
+        "calculation": "PaymentsOfFinancingCosts + PaymentsRelatedToTaxWithholdingForShareBasedCompensation + PaymentsofOfferingCosts",
+        "sources": {
+          "PaymentsofOfferingCosts": {
+            "value": 51000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "PaymentsofOfferingCosts",
+              "column": "2024-03-31"
+            }
+          },
+          "PaymentsOfFinancingCosts": {
+            "value": 4281000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "PaymentsOfFinancingCosts",
+              "column": "2024-03-31"
+            }
+          },
+          "PaymentsRelatedToTaxWithholdingForShareBasedCompensation": {
+            "value": 3594000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 3235000.0,
+        "final_value": "3,235",
+        "calculation": "PaymentsOfFinancingCosts + PaymentsRelatedToTaxWithholdingForShareBasedCompensation + PaymentsofOfferingCosts",
+        "sources": {
+          "PaymentsOfFinancingCosts": {
+            "value": 441000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "PaymentsOfFinancingCosts",
+              "column": "2025-03-31"
+            }
+          },
+          "PaymentsRelatedToTaxWithholdingForShareBasedCompensation": {
+            "value": 2794000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": -4691000.0,
+        "final_value": "(4,691)",
+        "calculation": "2024 + YTD 2025 - YTD 2024",
+        "sources": {
+          "PaymentsOfFinancingCosts": {
+            "value": 4281000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "PaymentsOfFinancingCosts",
+              "column": "2024-03-31"
+            }
+          },
+          "PaymentsRelatedToTaxWithholdingForShareBasedCompensation": {
+            "value": 3594000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "PaymentsRelatedToTaxWithholdingForShareBasedCompensation",
+              "column": "2024-03-31"
+            }
+          },
+          "PaymentsofOfferingCosts": {
+            "value": 51000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "PaymentsofOfferingCosts",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Capital Expenditures": {
+      "2024": {
+        "value": 0.0,
+        "final_value": "0",
+        "calculation": "PaymentforCapitalExpendituresonLandandDevelopmentAssets",
+        "sources": {}
+      },
+      "2023": {
+        "value": 0.0,
+        "final_value": "0",
+        "calculation": "PaymentforCapitalExpendituresonLandandDevelopmentAssets",
+        "sources": {}
+      },
+      "2022": {
+        "value": 21875000.0,
+        "final_value": "21,875",
+        "calculation": "PaymentforCapitalExpendituresonLandandDevelopmentAssets",
+        "sources": {
+          "PaymentforCapitalExpendituresonLandandDevelopmentAssets": {
+            "value": 21875000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2022",
+            "location": {
+              "row": "PaymentforCapitalExpendituresonLandandDevelopmentAssets",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 23929000.0,
+        "final_value": "23,929",
+        "calculation": "PaymentforCapitalExpendituresonLandandDevelopmentAssets",
+        "sources": {
+          "PaymentforCapitalExpendituresonLandandDevelopmentAssets": {
+            "value": 23929000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2021",
+            "location": {
+              "row": "PaymentforCapitalExpendituresonLandandDevelopmentAssets",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 40954000.0,
+        "final_value": "40,954",
+        "calculation": "PaymentforCapitalExpendituresonLandandDevelopmentAssets",
+        "sources": {
+          "PaymentforCapitalExpendituresonLandandDevelopmentAssets": {
+            "value": 40954000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2020",
+            "location": {
+              "row": "PaymentforCapitalExpendituresonLandandDevelopmentAssets",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": 88393000.0,
+        "final_value": "88,393",
+        "calculation": "PaymentstoOriginateAcquireSalesTypeLease + PaymentsToAcquireEquityMethodInvestments",
+        "sources": {
+          "PaymentstoOriginateAcquireSalesTypeLease": {
+            "value": 79201000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "PaymentstoOriginateAcquireSalesTypeLease",
+              "column": "2024-03-31"
+            }
+          },
+          "PaymentsToAcquireEquityMethodInvestments": {
+            "value": 9192000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "PaymentsToAcquireEquityMethodInvestments",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 19804000.0,
+        "final_value": "19,804",
+        "calculation": "PaymentstoOriginateAcquireSalesTypeLease + PaymentsToAcquireEquityMethodInvestments",
+        "sources": {
+          "PaymentstoOriginateAcquireSalesTypeLease": {
+            "value": 16129000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "PaymentstoOriginateAcquireSalesTypeLease",
+              "column": "2025-03-31"
+            }
+          },
+          "PaymentsToAcquireEquityMethodInvestments": {
+            "value": 3675000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "PaymentsToAcquireEquityMethodInvestments",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": -68589000.0,
+        "final_value": "(68,589)",
+        "calculation": "2024 + YTD 2025 - YTD 2024",
+        "sources": {
+          "PaymentstoOriginateAcquireSalesTypeLease": {
+            "value": 79201000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "PaymentstoOriginateAcquireSalesTypeLease",
+              "column": "2024-03-31"
+            }
+          },
+          "PaymentsToAcquireEquityMethodInvestments": {
+            "value": 9192000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "PaymentsToAcquireEquityMethodInvestments",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Free Cash Flow": {
+      "2024": {
+        "value": 37855000.0,
+        "final_value": "37,855",
+        "calculation": "NetCashProvidedByUsedInOperatingActivities - PaymentforCapitalExpendituresonLandandDevelopmentAssets",
+        "sources": {
+          "NetCashProvidedByUsedInOperatingActivities": {
+            "value": 37855000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2024",
+            "location": {
+              "row": "NetCashProvidedByUsedInOperatingActivities",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": 15391000.0,
+        "final_value": "15,391",
+        "calculation": "NetCashProvidedByUsedInOperatingActivities - PaymentforCapitalExpendituresonLandandDevelopmentAssets",
+        "sources": {
+          "NetCashProvidedByUsedInOperatingActivities": {
+            "value": 15391000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2023",
+            "location": {
+              "row": "NetCashProvidedByUsedInOperatingActivities",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 25792000.0,
+        "final_value": "25,792",
+        "calculation": "NetCashProvidedByUsedInOperatingActivities - PaymentforCapitalExpendituresonLandandDevelopmentAssets",
+        "sources": {
+          "PaymentforCapitalExpendituresonLandandDevelopmentAssets": {
+            "value": 21875000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2022",
+            "location": {
+              "row": "PaymentforCapitalExpendituresonLandandDevelopmentAssets",
+              "column": "2022"
+            }
+          },
+          "NetCashProvidedByUsedInOperatingActivities": {
+            "value": 47667000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2022",
+            "location": {
+              "row": "NetCashProvidedByUsedInOperatingActivities",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": -44256000.0,
+        "final_value": "(44,256)",
+        "calculation": "NetCashProvidedByUsedInOperatingActivities - PaymentforCapitalExpendituresonLandandDevelopmentAssets",
+        "sources": {
+          "PaymentforCapitalExpendituresonLandandDevelopmentAssets": {
+            "value": 23929000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2021",
+            "location": {
+              "row": "PaymentforCapitalExpendituresonLandandDevelopmentAssets",
+              "column": "2021"
+            }
+          },
+          "NetCashProvidedByUsedInOperatingActivities": {
+            "value": -20327000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2021",
+            "location": {
+              "row": "NetCashProvidedByUsedInOperatingActivities",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": -19068000.0,
+        "final_value": "(19,068)",
+        "calculation": "NetCashProvidedByUsedInOperatingActivities - PaymentforCapitalExpendituresonLandandDevelopmentAssets",
+        "sources": {
+          "PaymentforCapitalExpendituresonLandandDevelopmentAssets": {
+            "value": 40954000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2020",
+            "location": {
+              "row": "PaymentforCapitalExpendituresonLandandDevelopmentAssets",
+              "column": "2020"
+            }
+          },
+          "NetCashProvidedByUsedInOperatingActivities": {
+            "value": 21886000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2020",
+            "location": {
+              "row": "NetCashProvidedByUsedInOperatingActivities",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": null,
+        "final_value": null,
+        "calculation": "NetCashProvidedByUsedInOperatingActivities - Capital Expenditures",
+        "sources": {
+          "NetCashProvidedByUsedInOperatingActivities": {
+            "value": -3064000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "NetCashProvidedByUsedInOperatingActivities",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": null,
+        "final_value": null,
+        "calculation": "NetCashProvidedByUsedInOperatingActivities - Capital Expenditures",
+        "sources": {
+          "NetCashProvidedByUsedInOperatingActivities": {
+            "value": 8901000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "NetCashProvidedByUsedInOperatingActivities",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": null,
+        "final_value": null,
+        "calculation": "2024 + YTD 2025 - YTD 2024",
+        "sources": {
+          "NetCashProvidedByUsedInOperatingActivities": {
+            "value": -3064000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "NetCashProvidedByUsedInOperatingActivities",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Acq. / Disp.": {
+      "2024": {
+        "value": 5764000.0,
+        "final_value": "5,764",
+        "calculation": "ProceedsFromSaleOfRealEstateHeldforinvestment - PaymentsToAcquireRealEstate",
+        "sources": {
+          "ProceedsFromSaleOfRealEstateHeldforinvestment": {
+            "value": 5764000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2024",
+            "location": {
+              "row": "ProceedsFromSaleOfRealEstateHeldforinvestment",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": -11447000.0,
+        "final_value": "(11,447)",
+        "calculation": "ProceedsFromSaleOfRealEstateHeldforinvestment - PaymentsToAcquireRealEstate",
+        "sources": {
+          "PaymentsToAcquireRealEstate": {
+            "value": 13078000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2023",
+            "location": {
+              "row": "PaymentsToAcquireRealEstate",
+              "column": "2023"
+            }
+          },
+          "ProceedsFromSaleOfRealEstateHeldforinvestment": {
+            "value": 1631000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2023",
+            "location": {
+              "row": "ProceedsFromSaleOfRealEstateHeldforinvestment",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 2021821000.0,
+        "final_value": "2,021,821",
+        "calculation": "ProceedsFromSaleOfRealEstateHeldforinvestment - PaymentsToAcquireRealEstate",
+        "sources": {
+          "ProceedsFromSaleOfRealEstateHeldforinvestment": {
+            "value": 2021821000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2022",
+            "location": {
+              "row": "ProceedsFromSaleOfRealEstateHeldforinvestment",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 157258000.0,
+        "final_value": "157,258",
+        "calculation": "ProceedsFromSaleOfRealEstateHeldforinvestment - PaymentsToAcquireRealEstate",
+        "sources": {
+          "ProceedsFromSaleOfRealEstateHeldforinvestment": {
+            "value": 157258000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2021",
+            "location": {
+              "row": "ProceedsFromSaleOfRealEstateHeldforinvestment",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 48415000.0,
+        "final_value": "48,415",
+        "calculation": "ProceedsFromSaleOfRealEstateHeldforinvestment - PaymentsToAcquireRealEstate",
+        "sources": {
+          "PaymentsToAcquireRealEstate": {
+            "value": 0.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2020",
+            "location": {
+              "row": "PaymentsToAcquireRealEstate",
+              "column": "2020"
+            }
+          },
+          "ProceedsFromSaleOfRealEstateHeldforinvestment": {
+            "value": 48415000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2020",
+            "location": {
+              "row": "ProceedsFromSaleOfRealEstateHeldforinvestment",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": -68928000.0,
+        "final_value": "(68,928)",
+        "calculation": "ProceedsFromSaleOfRealEstateHeldforinvestment + ProceedsFromEquityMethodInvestmentDividendsOrDistributionsReturnOfCapital - PaymentsToAcquireEquityMethodInvestments - PaymentstoOriginateAcquireSalesTypeLease",
+        "sources": {
+          "PaymentstoOriginateAcquireSalesTypeLease": {
+            "value": 79201000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "PaymentstoOriginateAcquireSalesTypeLease",
+              "column": "2024-03-31"
+            }
+          },
+          "PaymentsToAcquireEquityMethodInvestments": {
+            "value": 9192000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "PaymentsToAcquireEquityMethodInvestments",
+              "column": "2024-03-31"
+            }
+          },
+          "ProceedsFromEquityMethodInvestmentDividendsOrDistributionsReturnOfCapital": {
+            "value": 19465000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "ProceedsFromEquityMethodInvestmentDividendsOrDistributionsReturnOfCapital",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": -9067000.0,
+        "final_value": "(9,067)",
+        "calculation": "ProceedsFromSaleOfRealEstateHeldforinvestment + ProceedsFromEquityMethodInvestmentDividendsOrDistributionsReturnOfCapital - PaymentsToAcquireEquityMethodInvestments - PaymentstoOriginateAcquireSalesTypeLease",
+        "sources": {
+          "PaymentstoOriginateAcquireSalesTypeLease": {
+            "value": 16129000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "PaymentstoOriginateAcquireSalesTypeLease",
+              "column": "2025-03-31"
+            }
+          },
+          "PaymentsToAcquireEquityMethodInvestments": {
+            "value": 3675000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "PaymentsToAcquireEquityMethodInvestments",
+              "column": "2025-03-31"
+            }
+          },
+          "ProceedsFromSaleOfRealEstateHeldforinvestment": {
+            "value": 1209000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "ProceedsFromSaleOfRealEstateHeldforinvestment",
+              "column": "2025-03-31"
+            }
+          },
+          "ProceedsFromEquityMethodInvestmentDividendsOrDistributionsReturnOfCapital": {
+            "value": 9528000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "ProceedsFromEquityMethodInvestmentDividendsOrDistributionsReturnOfCapital",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 65625000.0,
+        "final_value": "65,625",
+        "calculation": "2024 + YTD 2025 - YTD 2024",
+        "sources": {
+          "ProceedsFromSaleOfRealEstateHeldforinvestment": {
+            "value": 1209000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "ProceedsFromSaleOfRealEstateHeldforinvestment",
+              "column": "2025-03-31"
+            }
+          },
+          "PaymentstoOriginateAcquireSalesTypeLease": {
+            "value": 79201000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "PaymentstoOriginateAcquireSalesTypeLease",
+              "column": "2024-03-31"
+            }
+          },
+          "PaymentsToAcquireEquityMethodInvestments": {
+            "value": 9192000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "PaymentsToAcquireEquityMethodInvestments",
+              "column": "2024-03-31"
+            }
+          },
+          "ProceedsFromEquityMethodInvestmentDividendsOrDistributionsReturnOfCapital": {
+            "value": 19465000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "ProceedsFromEquityMethodInvestmentDividendsOrDistributionsReturnOfCapital",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Change in Debt": {
+      "2024": {
+        "value": 263584000.0,
+        "final_value": "263,584",
+        "calculation": "ProceedsFromIssuanceOfLongTermDebt - RepaymentsOfSecuredDebt",
+        "sources": {
+          "ProceedsFromIssuanceOfLongTermDebt": {
+            "value": 2271584000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2024",
+            "location": {
+              "row": "ProceedsFromIssuanceOfLongTermDebt",
+              "column": "2024"
+            }
+          },
+          "RepaymentsOfSecuredDebt": {
+            "value": 2008000000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2024",
+            "location": {
+              "row": "RepaymentsOfSecuredDebt",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": 427000000.0,
+        "final_value": "427,000",
+        "calculation": "ProceedsFromIssuanceOfLongTermDebt - RepaymentsOfSecuredDebt",
+        "sources": {
+          "ProceedsFromIssuanceOfLongTermDebt": {
+            "value": 577000000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2023",
+            "location": {
+              "row": "ProceedsFromIssuanceOfLongTermDebt",
+              "column": "2023"
+            }
+          },
+          "RepaymentsOfSecuredDebt": {
+            "value": 150000000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2023",
+            "location": {
+              "row": "RepaymentsOfSecuredDebt",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 825000000.0,
+        "final_value": "825,000",
+        "calculation": "ProceedsFromIssuanceOfLongTermDebt - RepaymentsOfSecuredDebt",
+        "sources": {
+          "ProceedsFromIssuanceOfLongTermDebt": {
+            "value": 1830000000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2022",
+            "location": {
+              "row": "ProceedsFromIssuanceOfLongTermDebt",
+              "column": "2022"
+            }
+          },
+          "RepaymentsOfSecuredDebt": {
+            "value": 1005000000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2022",
+            "location": {
+              "row": "RepaymentsOfSecuredDebt",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 1018439000.0,
+        "final_value": "1,018,439",
+        "calculation": "ProceedsFromIssuanceOfLongTermDebt - RepaymentsOfSecuredDebt",
+        "sources": {
+          "ProceedsFromIssuanceOfLongTermDebt": {
+            "value": 1848439000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2021",
+            "location": {
+              "row": "ProceedsFromIssuanceOfLongTermDebt",
+              "column": "2021"
+            }
+          },
+          "RepaymentsOfSecuredDebt": {
+            "value": 830000000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2021",
+            "location": {
+              "row": "RepaymentsOfSecuredDebt",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 0.0,
+        "final_value": "0",
+        "calculation": "ProceedsFromIssuanceOfLongTermDebt - RepaymentsOfSecuredDebt",
+        "sources": {}
+      },
+      "YTD 2024": {
+        "value": 90871000.0,
+        "final_value": "90,871",
+        "calculation": "ProceedsFromIssuanceOfLongTermDebt - RepaymentsOfSecuredDebt",
+        "sources": {
+          "ProceedsFromIssuanceOfLongTermDebt": {
+            "value": 416871000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "ProceedsFromIssuanceOfLongTermDebt",
+              "column": "2024-03-31"
+            }
+          },
+          "RepaymentsOfSecuredDebt": {
+            "value": 326000000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "RepaymentsOfSecuredDebt",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 23000000.0,
+        "final_value": "23,000",
+        "calculation": "ProceedsFromIssuanceOfLongTermDebt - RepaymentsOfSecuredDebt",
+        "sources": {
+          "ProceedsFromIssuanceOfLongTermDebt": {
+            "value": 216000000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "ProceedsFromIssuanceOfLongTermDebt",
+              "column": "2025-03-31"
+            }
+          },
+          "RepaymentsOfSecuredDebt": {
+            "value": 193000000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "RepaymentsOfSecuredDebt",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 195713000.0,
+        "final_value": "195,713",
+        "calculation": "2024 + YTD 2025 - YTD 2024",
+        "sources": {
+          "ProceedsFromIssuanceOfLongTermDebt": {
+            "value": 416871000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "ProceedsFromIssuanceOfLongTermDebt",
+              "column": "2024-03-31"
+            }
+          },
+          "RepaymentsOfSecuredDebt": {
+            "value": 326000000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "RepaymentsOfSecuredDebt",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Equity / Dividends": {
+      "2024": {
+        "value": -50589000.0,
+        "final_value": "(50,589)",
+        "calculation": "ProceedsFromIssuanceOfCommonStock - PaymentsOfDividends",
+        "sources": {
+          "ProceedsFromIssuanceOfCommonStock": {
+            "value": 0.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2024",
+            "location": {
+              "row": "ProceedsFromIssuanceOfCommonStock",
+              "column": "2024"
+            }
+          },
+          "PaymentsOfDividends": {
+            "value": 50589000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2024",
+            "location": {
+              "row": "PaymentsOfDividends",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": 105901000.0,
+        "final_value": "105,901",
+        "calculation": "ProceedsFromIssuanceOfCommonStock - PaymentsOfDividends",
+        "sources": {
+          "ProceedsFromIssuanceOfCommonStock": {
+            "value": 151940000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2023",
+            "location": {
+              "row": "ProceedsFromIssuanceOfCommonStock",
+              "column": "2023"
+            }
+          },
+          "PaymentsOfDividends": {
+            "value": 46039000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2023",
+            "location": {
+              "row": "PaymentsOfDividends",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 266973000.0,
+        "final_value": "266,973",
+        "calculation": "ProceedsFromIssuanceOfCommonStock - PaymentsOfDividends",
+        "sources": {
+          "ProceedsFromIssuanceOfCommonStock": {
+            "value": 309160000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2022",
+            "location": {
+              "row": "ProceedsFromIssuanceOfCommonStock",
+              "column": "2022"
+            }
+          },
+          "PaymentsOfDividends": {
+            "value": 42187000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2022",
+            "location": {
+              "row": "PaymentsOfDividends",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 207398000.0,
+        "final_value": "207,398",
+        "calculation": "ProceedsFromIssuanceOfCommonStock - PaymentsOfDividends",
+        "sources": {
+          "ProceedsFromIssuanceOfCommonStock": {
+            "value": 243345000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2021",
+            "location": {
+              "row": "ProceedsFromIssuanceOfCommonStock",
+              "column": "2021"
+            }
+          },
+          "PaymentsOfDividends": {
+            "value": 35947000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2021",
+            "location": {
+              "row": "PaymentsOfDividends",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 0.0,
+        "final_value": "0",
+        "calculation": "ProceedsFromIssuanceOfCommonStock - PaymentsOfDividends",
+        "sources": {}
+      },
+      "YTD 2024": {
+        "value": 12572000.0,
+        "final_value": "12,572",
+        "calculation": "PaymentsOfDividends + PaymentsForRedemptionOfNoncontrollingInterest + PaymentsToMinorityShareholdersDistributions",
+        "sources": {
+          "PaymentsOfDividends": {
+            "value": 12572000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "PaymentsOfDividends",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 12800000.0,
+        "final_value": "12,800",
+        "calculation": "PaymentsOfDividends + PaymentsForRedemptionOfNoncontrollingInterest + PaymentsToMinorityShareholdersDistributions",
+        "sources": {
+          "PaymentsForRedemptionOfNoncontrollingInterest": {
+            "value": 125000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "PaymentsForRedemptionOfNoncontrollingInterest",
+              "column": "2025-03-31"
+            }
+          },
+          "PaymentsToMinorityShareholdersDistributions": {
+            "value": 24000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "PaymentsToMinorityShareholdersDistributions",
+              "column": "2025-03-31"
+            }
+          },
+          "PaymentsOfDividends": {
+            "value": 12651000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "PaymentsOfDividends",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": -50361000.0,
+        "final_value": "(50,361)",
+        "calculation": "2024 + YTD 2025 - YTD 2024",
+        "sources": {
+          "ProceedsFromIssuanceOfCommonStock": {
+            "value": 0.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2024",
+            "location": {
+              "row": "ProceedsFromIssuanceOfCommonStock",
+              "column": "2024"
+            }
+          },
+          "PaymentsOfDividends": {
+            "value": 12572000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "PaymentsOfDividends",
+              "column": "2024-03-31"
+            }
+          },
+          "PaymentsForRedemptionOfNoncontrollingInterest": {
+            "value": 125000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "PaymentsForRedemptionOfNoncontrollingInterest",
+              "column": "2025-03-31"
+            }
+          },
+          "PaymentsToMinorityShareholdersDistributions": {
+            "value": 24000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "PaymentsToMinorityShareholdersDistributions",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Change in Cash": {
+      "2024": {
+        "value": -29622000.0,
+        "final_value": "(29,622)",
+        "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+        "sources": {
+          "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect": {
+            "value": -29622000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2024",
+            "location": {
+              "row": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": -1650000.0,
+        "final_value": "(1,650)",
+        "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+        "sources": {
+          "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect": {
+            "value": -1650000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2023",
+            "location": {
+              "row": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 1054696000.0,
+        "final_value": "1,054,696",
+        "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+        "sources": {
+          "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect": {
+            "value": 1054696000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2022",
+            "location": {
+              "row": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 243430000.0,
+        "final_value": "243,430",
+        "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+        "sources": {
+          "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect": {
+            "value": 243430000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2021",
+            "location": {
+              "row": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": -201640000.0,
+        "final_value": "(201,640)",
+        "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+        "sources": {
+          "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect": {
+            "value": -201640000.0,
+            "filing_type": "10-K",
+            "table": "cashflow",
+            "period": "2020",
+            "location": {
+              "row": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": -7565000.0,
+        "final_value": "(7,565)",
+        "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+        "sources": {
+          "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect": {
+            "value": -7565000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 8865000.0,
+        "final_value": "8,865",
+        "calculation": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+        "sources": {
+          "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect": {
+            "value": 8865000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": -13192000.0,
+        "final_value": "(13,192)",
+        "calculation": "2024 + YTD 2025 - YTD 2024",
+        "sources": {
+          "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect": {
+            "value": -7565000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2024",
+            "location": {
+              "row": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsPeriodIncreaseDecreaseIncludingExchangeRateEffect",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Cash - End of Period": {
+      "2024": {
+        "value": 8346000.0,
+        "final_value": "8,346",
+        "calculation": "CashAndCashEquivalentsAtCarryingValue",
+        "sources": {
+          "CashAndCashEquivalentsAtCarryingValue": {
+            "value": 8346000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2024",
+            "location": {
+              "row": "CashAndCashEquivalentsAtCarryingValue",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": 18761000.0,
+        "final_value": "18,761",
+        "calculation": "CashAndCashEquivalentsAtCarryingValue",
+        "sources": {
+          "CashAndCashEquivalentsAtCarryingValue": {
+            "value": 18761000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2023",
+            "location": {
+              "row": "CashAndCashEquivalentsAtCarryingValue",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 1442269000.0,
+        "final_value": "1,442,269",
+        "calculation": "CashAndCashEquivalentsAtCarryingValue",
+        "sources": {
+          "CashAndCashEquivalentsAtCarryingValue": {
+            "value": 1442269000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2022",
+            "location": {
+              "row": "CashAndCashEquivalentsAtCarryingValue",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 339601000.0,
+        "final_value": "339,601",
+        "calculation": "CashAndCashEquivalentsAtCarryingValue",
+        "sources": {
+          "CashAndCashEquivalentsAtCarryingValue": {
+            "value": 339601000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2021",
+            "location": {
+              "row": "CashAndCashEquivalentsAtCarryingValue",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 98633000.0,
+        "final_value": "98,633",
+        "calculation": "CashAndCashEquivalentsAtCarryingValue",
+        "sources": {
+          "CashAndCashEquivalentsAtCarryingValue": {
+            "value": 98633000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2020",
+            "location": {
+              "row": "CashAndCashEquivalentsAtCarryingValue",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": 11000000.0,
+        "final_value": "11,000",
+        "calculation": "CashAndCashEquivalentsAtCarryingValue",
+        "sources": {
+          "CashAndCashEquivalentsAtCarryingValue": {
+            "value": 11000000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2024",
+            "location": {
+              "row": "CashAndCashEquivalentsAtCarryingValue",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 17000000.0,
+        "final_value": "17,000",
+        "calculation": "CashAndCashEquivalentsAtCarryingValue",
+        "sources": {
+          "CashAndCashEquivalentsAtCarryingValue": {
+            "value": 17000000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2025",
+            "location": {
+              "row": "CashAndCashEquivalentsAtCarryingValue",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 17000000.0,
+        "final_value": "17,000",
+        "calculation": "YTD 2025 value (stock metric)",
+        "sources": {
+          "CashAndCashEquivalentsAtCarryingValue": {
+            "value": 17000000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2025",
+            "location": {
+              "row": "CashAndCashEquivalentsAtCarryingValue",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Total Debt": {
+      "2024": {
+        "value": 4317439000.0,
+        "final_value": "4,317,439",
+        "calculation": "LongTermDebt",
+        "sources": {
+          "LongTermDebt": {
+            "value": 4317439000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2024",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": 4054365000.0,
+        "final_value": "4,054,365",
+        "calculation": "LongTermDebt",
+        "sources": {
+          "LongTermDebt": {
+            "value": 4054365000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2023",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 1682521000.0,
+        "final_value": "1,682,521",
+        "calculation": "LongTermDebt",
+        "sources": {
+          "LongTermDebt": {
+            "value": 1682521000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2022",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 10000000.0,
+        "final_value": "10,000",
+        "calculation": "LongTermDebt",
+        "sources": {
+          "LongTermDebt": {
+            "value": 10000000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2021",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 3286975000.0,
+        "final_value": "3,286,975",
+        "calculation": "LongTermDebt",
+        "sources": {
+          "LongTermDebt": {
+            "value": 3286975000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2020",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": 2671001000.0,
+        "final_value": "2,671,001",
+        "calculation": "LongTermDebt",
+        "sources": {
+          "LongTermDebt": {
+            "value": 2671001000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2024",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 2869415000.0,
+        "final_value": "2,869,415",
+        "calculation": "LongTermDebt",
+        "sources": {
+          "LongTermDebt": {
+            "value": 2869415000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2025",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 2869415000.0,
+        "final_value": "2,869,415",
+        "calculation": "YTD 2025 value (stock metric)",
+        "sources": {
+          "LongTermDebt": {
+            "value": 2869415000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2025",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Book Equity": {
+      "2024": {
+        "value": 2344018000.0,
+        "final_value": "2,344,018",
+        "calculation": "StockholdersEquity",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 2344018000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2024",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": 2231253000.0,
+        "final_value": "2,231,253",
+        "calculation": "StockholdersEquity",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 2231253000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2023",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 1408518000.0,
+        "final_value": "1,408,518",
+        "calculation": "StockholdersEquity",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 1408518000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2022",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": -10000000.0,
+        "final_value": "(10,000)",
+        "calculation": "StockholdersEquity",
+        "sources": {
+          "StockholdersEquity": {
+            "value": -10000000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2021",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 870969000.0,
+        "final_value": "870,969",
+        "calculation": "StockholdersEquity",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 870969000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2020",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": 2283473000.0,
+        "final_value": "2,283,473",
+        "calculation": "StockholdersEquity",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 2283473000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2024",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 2350832000.0,
+        "final_value": "2,350,832",
+        "calculation": "StockholdersEquity",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 2350832000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2025",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 2350832000.0,
+        "final_value": "2,350,832",
+        "calculation": "YTD 2025 value (stock metric)",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 2350832000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2025",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      }
+    },
+    "EBITDA / Int. Exp.": {
+      "2024": {
+        "value": null,
+        "final_value": null,
+        "calculation": "Adjusted EBITDA / InterestExpenseNonoperating",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": 87083000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": -0.42580285176039023,
+        "final_value": "(0.43x)",
+        "calculation": "Adjusted EBITDA / InterestExpenseNonoperating",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": -77075000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2023"
+            }
+          },
+          "InterestExpenseNonoperating": {
+            "value": 181011000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 1.3832495334060846,
+        "final_value": "1.38x",
+        "calculation": "Adjusted EBITDA / InterestExpenseNonoperating",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": 135629000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2022"
+            }
+          },
+          "InterestExpenseNonoperating": {
+            "value": 98051000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 0.5672530329289428,
+        "final_value": "0.57x",
+        "calculation": "Adjusted EBITDA / InterestExpenseNonoperating",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": 65461000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2021"
+            }
+          },
+          "InterestExpenseNonoperating": {
+            "value": 115400000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 0.0,
+        "final_value": "0.00x",
+        "calculation": "Adjusted EBITDA / InterestExpenseNonoperating",
+        "sources": {
+          "InterestExpenseNonoperating": {
+            "value": 169574000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2020",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": 1.365487035018815,
+        "final_value": "1.37x",
+        "calculation": "Adjusted EBITDA / InterestExpenseNonoperating",
+        "sources": {
+          "InterestExpenseNonoperating": {
+            "value": 48631000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": null,
+        "final_value": null,
+        "calculation": "Adjusted EBITDA / InterestExpenseNonoperating",
+        "sources": {}
+      },
+      "LTM 2025": {
+        "value": 0.3693672891726947,
+        "final_value": "0.37x",
+        "calculation": "Adjusted EBITDA / Interest Expense",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": 24588000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2024-03-31"
+            }
+          },
+          "InterestExpenseOperating": {
+            "value": 50426000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "InterestExpenseOperating",
+              "column": "2025-03-31"
+            }
+          },
+          "InterestExpenseNoncashAccretion": {
+            "value": 2721000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "InterestExpenseNoncashAccretion",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Total Debt / EBITDA": {
+      "2024": {
+        "value": 49.578436663872395,
+        "final_value": "49.58x",
+        "calculation": "Total Debt / Adjusted EBITDA",
+        "sources": {
+          "LongTermDebt": {
+            "value": 4317439000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2024",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2024"
+            }
+          },
+          "OperatingIncomeLoss": {
+            "value": 87083000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": -52.6028543626338,
+        "final_value": "(52.60x)",
+        "calculation": "Total Debt / Adjusted EBITDA",
+        "sources": {
+          "LongTermDebt": {
+            "value": 4054365000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2023",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2023"
+            }
+          },
+          "OperatingIncomeLoss": {
+            "value": -77075000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 12.405318921469597,
+        "final_value": "12.41x",
+        "calculation": "Total Debt / Adjusted EBITDA",
+        "sources": {
+          "LongTermDebt": {
+            "value": 1682521000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2022",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2022"
+            }
+          },
+          "OperatingIncomeLoss": {
+            "value": 135629000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 0.15276271367684577,
+        "final_value": "0.15x",
+        "calculation": "Total Debt / Adjusted EBITDA",
+        "sources": {
+          "LongTermDebt": {
+            "value": 10000000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2021",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2021"
+            }
+          },
+          "OperatingIncomeLoss": {
+            "value": 65461000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": null,
+        "final_value": null,
+        "calculation": "Total Debt / Adjusted EBITDA",
+        "sources": {
+          "LongTermDebt": {
+            "value": 3286975000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2020",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": 0.0,
+        "final_value": "0.00x",
+        "calculation": "(NotesPayable + LineOfCredit) / Adjusted EBITDA",
+        "sources": {}
+      },
+      "YTD 2025": {
+        "value": 0.0,
+        "final_value": "0.00x",
+        "calculation": "(NotesPayable + LineOfCredit) / Adjusted EBITDA",
+        "sources": {}
+      },
+      "LTM 2025": {
+        "value": 30.926752244532825,
+        "final_value": "30.93x",
+        "calculation": "Total Debt (YTD 2025) / Adjusted EBITDA (LTM)",
+        "sources": {
+          "LongTermDebt": {
+            "value": 2869415000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2025",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2025-03-31"
+            }
+          },
+          "OperatingIncomeLoss": {
+            "value": 24588000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Total Debt / Book Capital": {
+      "2024": {
+        "value": 0.0,
+        "final_value": "0.0%",
+        "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity) * 100",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 2344018000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2024",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": 0.0,
+        "final_value": "0.0%",
+        "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity) * 100",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 2231253000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2023",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 0.0,
+        "final_value": "0.0%",
+        "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity) * 100",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 1408518000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2022",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": -0.0,
+        "final_value": "-0.0%",
+        "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity) * 100",
+        "sources": {
+          "StockholdersEquity": {
+            "value": -10000000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2021",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 0.0,
+        "final_value": "0.0%",
+        "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity) * 100",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 870969000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2020",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": 0.0,
+        "final_value": "0.0%",
+        "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity) * 100",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 2283473000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2024",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 0.0,
+        "final_value": "0.0%",
+        "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity) * 100",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 2350832000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2025",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 54.96703508473833,
+        "final_value": "55.0%",
+        "calculation": "Total Debt / (Total Debt + Book Equity) * 100",
+        "sources": {
+          "LongTermDebt": {
+            "value": 2869415000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2025",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2025-03-31"
+            }
+          },
+          "StockholdersEquity": {
+            "value": 2350832000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2025",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Total Debt + Leases / EBITDA": {
+      "2024": {
+        "value": 49.578436663872395,
+        "final_value": "49.58x",
+        "calculation": "Total Debt / Adjusted EBITDA",
+        "sources": {
+          "LongTermDebt": {
+            "value": 4317439000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2024",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2024"
+            }
+          },
+          "OperatingIncomeLoss": {
+            "value": 87083000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": -52.6028543626338,
+        "final_value": "(52.60x)",
+        "calculation": "Total Debt / Adjusted EBITDA",
+        "sources": {
+          "LongTermDebt": {
+            "value": 4054365000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2023",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2023"
+            }
+          },
+          "OperatingIncomeLoss": {
+            "value": -77075000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 12.405318921469597,
+        "final_value": "12.41x",
+        "calculation": "Total Debt / Adjusted EBITDA",
+        "sources": {
+          "LongTermDebt": {
+            "value": 1682521000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2022",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2022"
+            }
+          },
+          "OperatingIncomeLoss": {
+            "value": 135629000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 0.15276271367684577,
+        "final_value": "0.15x",
+        "calculation": "Total Debt / Adjusted EBITDA",
+        "sources": {
+          "LongTermDebt": {
+            "value": 10000000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2021",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2021"
+            }
+          },
+          "OperatingIncomeLoss": {
+            "value": 65461000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": null,
+        "final_value": null,
+        "calculation": "Total Debt / Adjusted EBITDA",
+        "sources": {
+          "LongTermDebt": {
+            "value": 3286975000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2020",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": 0.0,
+        "final_value": "0.00x",
+        "calculation": "(NotesPayable + LineOfCredit) / Adjusted EBITDA",
+        "sources": {}
+      },
+      "YTD 2025": {
+        "value": 0.0,
+        "final_value": "0.00x",
+        "calculation": "(NotesPayable + LineOfCredit) / Adjusted EBITDA",
+        "sources": {}
+      },
+      "LTM 2025": {
+        "value": 30.926752244532825,
+        "final_value": "30.93x",
+        "calculation": "Total Debt (YTD 2025) / Adjusted EBITDA (LTM)",
+        "sources": {
+          "LongTermDebt": {
+            "value": 2869415000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2025",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2025-03-31"
+            }
+          },
+          "OperatingIncomeLoss": {
+            "value": 24588000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      }
+    },
+    "Total Debt + Leases / Book Capital": {
+      "2024": {
+        "value": 0.0,
+        "final_value": "0.0%",
+        "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity) * 100",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 2344018000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2024",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": 0.0,
+        "final_value": "0.0%",
+        "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity) * 100",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 2231253000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2023",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 0.0,
+        "final_value": "0.0%",
+        "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity) * 100",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 1408518000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2022",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": -0.0,
+        "final_value": "-0.0%",
+        "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity) * 100",
+        "sources": {
+          "StockholdersEquity": {
+            "value": -10000000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2021",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": 0.0,
+        "final_value": "0.0%",
+        "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity) * 100",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 870969000.0,
+            "filing_type": "10-K",
+            "table": "balance",
+            "period": "2020",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2020"
+            }
+          }
+        }
+      },
+      "YTD 2024": {
+        "value": 0.0,
+        "final_value": "0.0%",
+        "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity) * 100",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 2283473000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2024",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "YTD 2025": {
+        "value": 0.0,
+        "final_value": "0.0%",
+        "calculation": "(NotesPayable + LineOfCredit) / (NotesPayable + LineOfCredit + StockholdersEquity) * 100",
+        "sources": {
+          "StockholdersEquity": {
+            "value": 2350832000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2025",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 54.96703508473833,
+        "final_value": "55.0%",
+        "calculation": "Total Debt / (Total Debt + Book Equity) * 100",
+        "sources": {
+          "LongTermDebt": {
+            "value": 2869415000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2025",
+            "location": {
+              "row": "LongTermDebt",
+              "column": "2025-03-31"
+            }
+          },
+          "StockholdersEquity": {
+            "value": 2350832000.0,
+            "filing_type": "10-Q",
+            "table": "balance",
+            "period": "Q1 2025",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      }
+    },
+    "EBITDAR / Interest + Rent": {
+      "2024": {
+        "value": 0.5876708918146584,
+        "final_value": "0.59x",
+        "calculation": "(OperatingIncomeLoss + Adjustments + OperatingLeaseLeaseIncome) / (InterestExpenseOperating + OperatingLeaseLeaseIncome)",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": 87083000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2024"
+            }
+          },
+          "InterestExpenseOperating": {
+            "value": 198042000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "InterestExpenseOperating",
+              "column": "2024"
+            }
+          },
+          "OperatingLeaseLeaseIncome": {
+            "value": 71061000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2024",
+            "location": {
+              "row": "OperatingLeaseLeaseIncome",
+              "column": "2024"
+            }
+          }
+        }
+      },
+      "2023": {
+        "value": -0.02294112517736962,
+        "final_value": "(0.02x)",
+        "calculation": "(OperatingIncomeLoss + Adjustments + OperatingLeaseLeaseIncome) / (InterestExpenseOperating + OperatingLeaseLeaseIncome)",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": -77075000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2023"
+            }
+          },
+          "InterestExpenseOperating": {
+            "value": 181011000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "InterestExpenseOperating",
+              "column": "2023"
+            }
+          },
+          "OperatingLeaseLeaseIncome": {
+            "value": 71287000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2023",
+            "location": {
+              "row": "OperatingLeaseLeaseIncome",
+              "column": "2023"
+            }
+          }
+        }
+      },
+      "2022": {
+        "value": 1.0340167325549323,
+        "final_value": "1.03x",
+        "calculation": "(OperatingIncomeLoss + Adjustments + OperatingLeaseLeaseIncome) / (InterestExpenseOperating + OperatingLeaseLeaseIncome)",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": 135629000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2022"
+            }
+          },
+          "InterestExpenseOperating": {
+            "value": 128969000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "InterestExpenseOperating",
+              "column": "2022"
+            }
+          },
+          "OperatingLeaseLeaseIncome": {
+            "value": 66817000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2022",
+            "location": {
+              "row": "OperatingLeaseLeaseIncome",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "2021": {
+        "value": 1.9673991753735203,
+        "final_value": "1.97x",
+        "calculation": "(OperatingIncomeLoss + Adjustments + OperatingLeaseLeaseIncome) / (InterestExpenseOperating + OperatingLeaseLeaseIncome)",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": 65461000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2021"
+            }
+          },
+          "OperatingLeaseLeaseIncome": {
+            "value": 67667000.0,
+            "filing_type": "10-K",
+            "table": "income",
+            "period": "2021",
+            "location": {
+              "row": "OperatingLeaseLeaseIncome",
+              "column": "2021"
+            }
+          }
+        }
+      },
+      "2020": {
+        "value": null,
+        "final_value": null,
+        "calculation": "(OperatingIncomeLoss + Adjustments + OperatingLeaseLeaseIncome) / (InterestExpenseOperating + OperatingLeaseLeaseIncome)",
+        "sources": {}
+      },
+      "YTD 2024": {
+        "value": null,
+        "final_value": null,
+        "calculation": "(Adjusted EBITDA + ManagementFeeExpense) / (InterestExpenseOperating + InterestExpenseNoncashAccretion + ManagementFeeExpense)",
+        "sources": {}
+      },
+      "YTD 2025": {
+        "value": null,
+        "final_value": null,
+        "calculation": "(Adjusted EBITDA + ManagementFeeExpense) / (InterestExpenseOperating + InterestExpenseNoncashAccretion + ManagementFeeExpense)",
+        "sources": {
+          "ManagementFeeExpense": {
+            "value": 15000000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "ManagementFeeExpense",
+              "column": "2025-03-31"
+            }
+          },
+          "InterestExpenseNoncashAccretion": {
+            "value": 2721000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "InterestExpenseNoncashAccretion",
+              "column": "2025-03-31"
+            }
+          },
+          "InterestExpenseOperating": {
+            "value": 50426000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "InterestExpenseOperating",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "LTM 2025": {
+        "value": 0.3693672891726947,
+        "final_value": "0.37x",
+        "calculation": "Adjusted EBITDA / Interest Expense",
+        "sources": {
+          "OperatingIncomeLoss": {
+            "value": 24588000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2024",
+            "location": {
+              "row": "OperatingIncomeLoss",
+              "column": "2024-03-31"
+            }
+          },
+          "InterestExpenseOperating": {
+            "value": 50426000.0,
+            "filing_type": "10-Q",
+            "table": "income",
+            "period": "Q1 2025",
+            "location": {
+              "row": "InterestExpenseOperating",
+              "column": "2025-03-31"
+            }
+          },
+          "InterestExpenseNoncashAccretion": {
+            "value": 2721000.0,
+            "filing_type": "10-Q",
+            "table": "cashflow",
+            "period": "Q1 2025",
+            "location": {
+              "row": "InterestExpenseNoncashAccretion",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      }
+    }
+  }
+}

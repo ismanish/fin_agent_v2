@@ -1,0 +1,2801 @@
+{
+  "parent_ticker": "STAG",
+  "timestamp": "20251023_124851",
+  "comp_tickers": [],
+  "metrics": {
+    "STAG": {
+      "LTM Revenue": {
+        "raw_value": 785415000.0,
+        "final_value": "785415.0",
+        "calculation": "Revenues",
+        "calculation_steps": [
+          {
+            "step": "Revenues_LTM",
+            "formula": "Revenues_FY_2024 + Revenues_YTD_2025 - Revenues_YTD_2024",
+            "inputs": {
+              "Revenues_FY_2024": 767384000.0,
+              "Revenues_YTD_2025": 205574000.0,
+              "Revenues_YTD_2024": 187543000.0
+            },
+            "result": 785415000.0
+          },
+          {
+            "step": "LTM Revenue_LTM",
+            "formula": "Revenues",
+            "inputs": {
+              "Revenues": 785415000.0
+            },
+            "result": 785415000.0
+          }
+        ],
+        "data_sources": {
+          "Revenues_FY_2024": {
+            "value": 767384000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "Revenues",
+            "location": {
+              "row": "Revenues",
+              "column": "2024"
+            }
+          },
+          "Revenues_YTD_2025": {
+            "value": 205574000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "Revenues",
+            "location": {
+              "row": "Revenues",
+              "column": "2025-03-31"
+            }
+          },
+          "Revenues_YTD_2024": {
+            "value": 187543000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "Revenues",
+            "location": {
+              "row": "Revenues",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "LTM EBITDA": {
+        "raw_value": 659818000.0,
+        "final_value": "659818.0",
+        "calculation": "NetIncomeLoss + InterestExpense + DepreciationAndAmortization",
+        "calculation_steps": [
+          {
+            "step": "Interest_LTM",
+            "formula": "Interest_FY_2024 + Interest_YTD_2025 - Interest_YTD_2024",
+            "inputs": {
+              "Interest_FY_2024": 113169000.0,
+              "Interest_YTD_2025": 32529000.0,
+              "Interest_YTD_2024": 25421000.0
+            },
+            "result": 120277000.0
+          },
+          {
+            "step": "DepreciationAndAmortization_LTM",
+            "formula": "DepreciationAndAmortization_FY_2024 + DepreciationAndAmortization_YTD_2025 - DepreciationAndAmortization_YTD_2024",
+            "inputs": {
+              "DepreciationAndAmortization_FY_2024": 293077000.0,
+              "DepreciationAndAmortization_YTD_2025": 73900000.0,
+              "DepreciationAndAmortization_YTD_2024": 71427000.0
+            },
+            "result": 295550000.0
+          },
+          {
+            "step": "NetIncomeLoss_LTM",
+            "formula": "NetIncomeLoss_FY_2024 + NetIncomeLoss_YTD_2025 - NetIncomeLoss_YTD_2024",
+            "inputs": {
+              "NetIncomeLoss_FY_2024": 189220000.0,
+              "NetIncomeLoss_YTD_2025": 91398000.0,
+              "NetIncomeLoss_YTD_2024": 36627000.0
+            },
+            "result": 243991000.0
+          },
+          {
+            "step": "LTM EBITDA_LTM",
+            "formula": "NetIncomeLoss + InterestExpense + DepreciationAndAmortization",
+            "inputs": {
+              "InterestExpense": 120277000.0,
+              "DepreciationAndAmortization": 295550000.0,
+              "NetIncomeLoss": 243991000.0
+            },
+            "result": 659818000.0
+          }
+        ],
+        "data_sources": {
+          "InterestExpense_YTD_2025": {
+            "value": 32529000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2025-03-31"
+            }
+          },
+          "InterestExpense_FY_2024": {
+            "value": 113169000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2024"
+            }
+          },
+          "InterestExpense_YTD_2024": {
+            "value": 25421000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2024-03-31"
+            }
+          },
+          "DepreciationAndAmortization_FY_2024": {
+            "value": 293077000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2024"
+            }
+          },
+          "DepreciationAndAmortization_YTD_2025": {
+            "value": 73900000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2025-03-31"
+            }
+          },
+          "DepreciationAndAmortization_YTD_2024": {
+            "value": 71427000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2024-03-31"
+            }
+          },
+          "NetIncomeLoss_FY_2024": {
+            "value": 189220000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2024"
+            }
+          },
+          "NetIncomeLoss_YTD_2025": {
+            "value": 91398000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2025-03-31"
+            }
+          },
+          "NetIncomeLoss_YTD_2024": {
+            "value": 36627000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "EBITDA Margin %": {
+        "raw_value": 84.00883609302089,
+        "final_value": "84.0%",
+        "calculation": "(NetIncomeLoss + InterestExpense + DepreciationAndAmortization) / Revenue * 100",
+        "calculation_steps": [
+          {
+            "step": "Interest_LTM",
+            "formula": "Interest_FY_2024 + Interest_YTD_2025 - Interest_YTD_2024",
+            "inputs": {
+              "Interest_FY_2024": 113169000.0,
+              "Interest_YTD_2025": 32529000.0,
+              "Interest_YTD_2024": 25421000.0
+            },
+            "result": 120277000.0
+          },
+          {
+            "step": "DepreciationAndAmortization_LTM",
+            "formula": "DepreciationAndAmortization_FY_2024 + DepreciationAndAmortization_YTD_2025 - DepreciationAndAmortization_YTD_2024",
+            "inputs": {
+              "DepreciationAndAmortization_FY_2024": 293077000.0,
+              "DepreciationAndAmortization_YTD_2025": 73900000.0,
+              "DepreciationAndAmortization_YTD_2024": 71427000.0
+            },
+            "result": 295550000.0
+          },
+          {
+            "step": "NetIncomeLoss_LTM",
+            "formula": "NetIncomeLoss_FY_2024 + NetIncomeLoss_YTD_2025 - NetIncomeLoss_YTD_2024",
+            "inputs": {
+              "NetIncomeLoss_FY_2024": 189220000.0,
+              "NetIncomeLoss_YTD_2025": 91398000.0,
+              "NetIncomeLoss_YTD_2024": 36627000.0
+            },
+            "result": 243991000.0
+          },
+          {
+            "step": "Revenue_LTM",
+            "formula": "Revenue_FY_2024 + Revenue_YTD_2025 - Revenue_YTD_2024",
+            "inputs": {
+              "Revenue_FY_2024": 767384000.0,
+              "Revenue_YTD_2025": 205574000.0,
+              "Revenue_YTD_2024": 187543000.0
+            },
+            "result": 785415000.0
+          },
+          {
+            "step": "EBITDA Margin %_LTM",
+            "formula": "(NetIncomeLoss + InterestExpense + DepreciationAndAmortization) / Revenue * 100",
+            "inputs": {
+              "InterestExpense": 120277000.0,
+              "DepreciationAndAmortization": 295550000.0,
+              "NetIncomeLoss": 243991000.0,
+              "Revenue": 785415000.0
+            },
+            "result": 84.00883609302089
+          }
+        ],
+        "data_sources": {
+          "InterestExpense_YTD_2025": {
+            "value": 32529000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2025-03-31"
+            }
+          },
+          "InterestExpense_FY_2024": {
+            "value": 113169000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2024"
+            }
+          },
+          "InterestExpense_YTD_2024": {
+            "value": 25421000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2024-03-31"
+            }
+          },
+          "DepreciationAndAmortization_FY_2024": {
+            "value": 293077000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2024"
+            }
+          },
+          "DepreciationAndAmortization_YTD_2025": {
+            "value": 73900000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2025-03-31"
+            }
+          },
+          "DepreciationAndAmortization_YTD_2024": {
+            "value": 71427000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2024-03-31"
+            }
+          },
+          "NetIncomeLoss_FY_2024": {
+            "value": 189220000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2024"
+            }
+          },
+          "NetIncomeLoss_YTD_2025": {
+            "value": 91398000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2025-03-31"
+            }
+          },
+          "NetIncomeLoss_YTD_2024": {
+            "value": 36627000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2024-03-31"
+            }
+          },
+          "Revenues_YTD_2025": {
+            "value": 205574000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "Revenues",
+            "location": {
+              "row": "Revenues",
+              "column": "2025-03-31"
+            }
+          },
+          "Revenues_FY_2024": {
+            "value": 767384000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "Revenues",
+            "location": {
+              "row": "Revenues",
+              "column": "2024"
+            }
+          },
+          "Revenues_YTD_2024": {
+            "value": 187543000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "Revenues",
+            "location": {
+              "row": "Revenues",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "EBITDAR / (Int + Rents)": {
+        "raw_value": 2.9289161709186593,
+        "final_value": "2.93x",
+        "calculation": "(NetIncomeLoss + InterestExpense + DepreciationAndAmortization + DirectCostsOfLeasedAndRentedPropertyOrEquipment) / (Interest + DirectCostsOfLeasedAndRentedPropertyOrEquipment)",
+        "calculation_steps": [
+          {
+            "step": "NetIncomeLoss_LTM",
+            "formula": "NetIncomeLoss_FY_2024 + NetIncomeLoss_YTD_2025 - NetIncomeLoss_YTD_2024",
+            "inputs": {
+              "NetIncomeLoss_FY_2024": 189220000.0,
+              "NetIncomeLoss_YTD_2025": 91398000.0,
+              "NetIncomeLoss_YTD_2024": 36627000.0
+            },
+            "result": 243991000.0
+          },
+          {
+            "step": "Interest_LTM",
+            "formula": "Interest_FY_2024 + Interest_YTD_2025 - Interest_YTD_2024",
+            "inputs": {
+              "Interest_FY_2024": 113169000.0,
+              "Interest_YTD_2025": 32529000.0,
+              "Interest_YTD_2024": 25421000.0
+            },
+            "result": 120277000.0
+          },
+          {
+            "step": "DepreciationAndAmortization_LTM",
+            "formula": "DepreciationAndAmortization_FY_2024 + DepreciationAndAmortization_YTD_2025 - DepreciationAndAmortization_YTD_2024",
+            "inputs": {
+              "DepreciationAndAmortization_FY_2024": 293077000.0,
+              "DepreciationAndAmortization_YTD_2025": 73900000.0,
+              "DepreciationAndAmortization_YTD_2024": 71427000.0
+            },
+            "result": 295550000.0
+          },
+          {
+            "step": "DirectCostsOfLeasedAndRentedPropertyOrEquipment_LTM",
+            "formula": "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2024 + DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2025 - DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2024",
+            "inputs": {
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2024": 154828000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2025": 43678000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2024": 39071000.0
+            },
+            "result": 159435000.0
+          },
+          {
+            "step": "Interest_LTM",
+            "formula": "Interest_FY_2024 + Interest_YTD_2025 - Interest_YTD_2024",
+            "inputs": {
+              "Interest_FY_2024": 113169000.0,
+              "Interest_YTD_2025": 32529000.0,
+              "Interest_YTD_2024": 25421000.0
+            },
+            "result": 120277000.0
+          },
+          {
+            "step": "EBITDAR / (Int + Rents)_LTM",
+            "formula": "(NetIncomeLoss + InterestExpense + DepreciationAndAmortization + DirectCostsOfLeasedAndRentedPropertyOrEquipment) / (Interest + DirectCostsOfLeasedAndRentedPropertyOrEquipment)",
+            "inputs": {
+              "NetIncomeLoss": 243991000.0,
+              "InterestExpense": 120277000.0,
+              "DepreciationAndAmortization": 295550000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment": 159435000.0,
+              "Interest": 120277000.0
+            },
+            "result": 2.9289161709186593
+          }
+        ],
+        "data_sources": {
+          "NetIncomeLoss_FY_2024": {
+            "value": 189220000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2024"
+            }
+          },
+          "NetIncomeLoss_YTD_2025": {
+            "value": 91398000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2025-03-31"
+            }
+          },
+          "NetIncomeLoss_YTD_2024": {
+            "value": 36627000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2024-03-31"
+            }
+          },
+          "InterestExpense_YTD_2025": {
+            "value": 32529000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2025-03-31"
+            }
+          },
+          "InterestExpense_FY_2024": {
+            "value": 113169000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2024"
+            }
+          },
+          "InterestExpense_YTD_2024": {
+            "value": 25421000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2024-03-31"
+            }
+          },
+          "DepreciationAndAmortization_FY_2024": {
+            "value": 293077000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2024"
+            }
+          },
+          "DepreciationAndAmortization_YTD_2025": {
+            "value": 73900000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2025-03-31"
+            }
+          },
+          "DepreciationAndAmortization_YTD_2024": {
+            "value": 71427000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2024-03-31"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2024": {
+            "value": 154828000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2024"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2025": {
+            "value": 43678000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2025-03-31"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2024": {
+            "value": 39071000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "(Total Debt + COL) / EBITDAR": {
+        "raw_value": 3.744219429162908,
+        "final_value": "3.74x",
+        "calculation": "(LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability) / (NetIncomeLoss + InterestExpense + DepreciationAndAmortization + DirectCostsOfLeasedAndRentedPropertyOrEquipment)",
+        "calculation_steps": [
+          {
+            "step": "NetIncomeLoss_LTM",
+            "formula": "NetIncomeLoss_FY_2024 + NetIncomeLoss_YTD_2025 - NetIncomeLoss_YTD_2024",
+            "inputs": {
+              "NetIncomeLoss_FY_2024": 189220000.0,
+              "NetIncomeLoss_YTD_2025": 91398000.0,
+              "NetIncomeLoss_YTD_2024": 36627000.0
+            },
+            "result": 243991000.0
+          },
+          {
+            "step": "Interest_LTM",
+            "formula": "Interest_FY_2024 + Interest_YTD_2025 - Interest_YTD_2024",
+            "inputs": {
+              "Interest_FY_2024": 113169000.0,
+              "Interest_YTD_2025": 32529000.0,
+              "Interest_YTD_2024": 25421000.0
+            },
+            "result": 120277000.0
+          },
+          {
+            "step": "DepreciationAndAmortization_LTM",
+            "formula": "DepreciationAndAmortization_FY_2024 + DepreciationAndAmortization_YTD_2025 - DepreciationAndAmortization_YTD_2024",
+            "inputs": {
+              "DepreciationAndAmortization_FY_2024": 293077000.0,
+              "DepreciationAndAmortization_YTD_2025": 73900000.0,
+              "DepreciationAndAmortization_YTD_2024": 71427000.0
+            },
+            "result": 295550000.0
+          },
+          {
+            "step": "DirectCostsOfLeasedAndRentedPropertyOrEquipment_LTM",
+            "formula": "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2024 + DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2025 - DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2024",
+            "inputs": {
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2024": 154828000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2025": 43678000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2024": 39071000.0
+            },
+            "result": 159435000.0
+          },
+          {
+            "step": "(Total Debt + COL) / EBITDAR_LTM",
+            "formula": "(LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability) / (NetIncomeLoss + InterestExpense + DepreciationAndAmortization + DirectCostsOfLeasedAndRentedPropertyOrEquipment)",
+            "inputs": {
+              "LineOfCredit": 512000000.0,
+              "NetIncomeLoss": 243991000.0,
+              "OperatingLeaseLiability": 34833000.0,
+              "InterestExpense": 120277000.0,
+              "NotesPayable": 1494303000.0,
+              "DepreciationAndAmortization": 295550000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment": 159435000.0,
+              "LoansPayable": 1022185000.0,
+              "SecuredDebt": 4142000.0
+            },
+            "result": 3.744219429162908
+          }
+        ],
+        "data_sources": {
+          "LineOfCredit_YTD_2025": {
+            "value": 512000000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "LineOfCredit",
+            "location": {
+              "row": "LineOfCredit",
+              "column": "2025-03-31"
+            }
+          },
+          "NetIncomeLoss_FY_2024": {
+            "value": 189220000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2024"
+            }
+          },
+          "NetIncomeLoss_YTD_2025": {
+            "value": 91398000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2025-03-31"
+            }
+          },
+          "NetIncomeLoss_YTD_2024": {
+            "value": 36627000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2024-03-31"
+            }
+          },
+          "OperatingLeaseLiability_YTD_2025": {
+            "value": 34833000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "OperatingLeaseLiability",
+            "location": {
+              "row": "OperatingLeaseLiability",
+              "column": "2025-03-31"
+            }
+          },
+          "InterestExpense_YTD_2025": {
+            "value": 32529000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2025-03-31"
+            }
+          },
+          "InterestExpense_FY_2024": {
+            "value": 113169000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2024"
+            }
+          },
+          "InterestExpense_YTD_2024": {
+            "value": 25421000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2024-03-31"
+            }
+          },
+          "NotesPayable_YTD_2025": {
+            "value": 1494303000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "NotesPayable",
+            "location": {
+              "row": "NotesPayable",
+              "column": "2025-03-31"
+            }
+          },
+          "DepreciationAndAmortization_FY_2024": {
+            "value": 293077000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2024"
+            }
+          },
+          "DepreciationAndAmortization_YTD_2025": {
+            "value": 73900000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2025-03-31"
+            }
+          },
+          "DepreciationAndAmortization_YTD_2024": {
+            "value": 71427000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2024-03-31"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2024": {
+            "value": 154828000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2024"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2025": {
+            "value": 43678000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2025-03-31"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2024": {
+            "value": 39071000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2024-03-31"
+            }
+          },
+          "LoansPayable_YTD_2025": {
+            "value": 1022185000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "LoansPayable",
+            "location": {
+              "row": "LoansPayable",
+              "column": "2025-03-31"
+            }
+          },
+          "SecuredDebt_YTD_2025": {
+            "value": 4142000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "SecuredDebt",
+            "location": {
+              "row": "SecuredDebt",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "(Net Debt + COL) / EBITDAR": {
+        "raw_value": 3.6855647766929143,
+        "final_value": "3.69x",
+        "calculation": "(LineOfCredit + LoansPayable + NotesPayable + SecuredDebt - (CashAndCashEquivalentsAtCarryingValue + RestrictedCashAndCashEquivalents) + OperatingLeaseLiability) / (NetIncomeLoss + InterestExpense + DepreciationAndAmortization + DirectCostsOfLeasedAndRentedPropertyOrEquipment)",
+        "calculation_steps": [
+          {
+            "step": "NetIncomeLoss_LTM",
+            "formula": "NetIncomeLoss_FY_2024 + NetIncomeLoss_YTD_2025 - NetIncomeLoss_YTD_2024",
+            "inputs": {
+              "NetIncomeLoss_FY_2024": 189220000.0,
+              "NetIncomeLoss_YTD_2025": 91398000.0,
+              "NetIncomeLoss_YTD_2024": 36627000.0
+            },
+            "result": 243991000.0
+          },
+          {
+            "step": "Interest_LTM",
+            "formula": "Interest_FY_2024 + Interest_YTD_2025 - Interest_YTD_2024",
+            "inputs": {
+              "Interest_FY_2024": 113169000.0,
+              "Interest_YTD_2025": 32529000.0,
+              "Interest_YTD_2024": 25421000.0
+            },
+            "result": 120277000.0
+          },
+          {
+            "step": "DepreciationAndAmortization_LTM",
+            "formula": "DepreciationAndAmortization_FY_2024 + DepreciationAndAmortization_YTD_2025 - DepreciationAndAmortization_YTD_2024",
+            "inputs": {
+              "DepreciationAndAmortization_FY_2024": 293077000.0,
+              "DepreciationAndAmortization_YTD_2025": 73900000.0,
+              "DepreciationAndAmortization_YTD_2024": 71427000.0
+            },
+            "result": 295550000.0
+          },
+          {
+            "step": "DirectCostsOfLeasedAndRentedPropertyOrEquipment_LTM",
+            "formula": "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2024 + DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2025 - DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2024",
+            "inputs": {
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2024": 154828000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2025": 43678000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2024": 39071000.0
+            },
+            "result": 159435000.0
+          },
+          {
+            "step": "(Net Debt + COL) / EBITDAR_LTM",
+            "formula": "(LineOfCredit + LoansPayable + NotesPayable + SecuredDebt - (CashAndCashEquivalentsAtCarryingValue + RestrictedCashAndCashEquivalents) + OperatingLeaseLiability) / (NetIncomeLoss + InterestExpense + DepreciationAndAmortization + DirectCostsOfLeasedAndRentedPropertyOrEquipment)",
+            "inputs": {
+              "RestrictedCashAndCashEquivalents": 38726000.0,
+              "LineOfCredit": 512000000.0,
+              "NetIncomeLoss": 243991000.0,
+              "OperatingLeaseLiability": 34833000.0,
+              "InterestExpense": 120277000.0,
+              "NotesPayable": 1494303000.0,
+              "DepreciationAndAmortization": 295550000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment": 159435000.0,
+              "LoansPayable": 1022185000.0,
+              "SecuredDebt": 4142000.0,
+              "CashAndCashEquivalentsAtCarryingValue": 9327000.0
+            },
+            "result": 3.6855647766929143
+          }
+        ],
+        "data_sources": {
+          "RestrictedCashAndCashEquivalents_YTD_2025": {
+            "value": 38726000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "RestrictedCashAndCashEquivalents",
+            "location": {
+              "row": "RestrictedCashAndCashEquivalents",
+              "column": "2025-03-31"
+            }
+          },
+          "LineOfCredit_YTD_2025": {
+            "value": 512000000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "LineOfCredit",
+            "location": {
+              "row": "LineOfCredit",
+              "column": "2025-03-31"
+            }
+          },
+          "NetIncomeLoss_FY_2024": {
+            "value": 189220000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2024"
+            }
+          },
+          "NetIncomeLoss_YTD_2025": {
+            "value": 91398000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2025-03-31"
+            }
+          },
+          "NetIncomeLoss_YTD_2024": {
+            "value": 36627000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2024-03-31"
+            }
+          },
+          "OperatingLeaseLiability_YTD_2025": {
+            "value": 34833000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "OperatingLeaseLiability",
+            "location": {
+              "row": "OperatingLeaseLiability",
+              "column": "2025-03-31"
+            }
+          },
+          "InterestExpense_YTD_2025": {
+            "value": 32529000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2025-03-31"
+            }
+          },
+          "InterestExpense_FY_2024": {
+            "value": 113169000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2024"
+            }
+          },
+          "InterestExpense_YTD_2024": {
+            "value": 25421000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2024-03-31"
+            }
+          },
+          "NotesPayable_YTD_2025": {
+            "value": 1494303000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "NotesPayable",
+            "location": {
+              "row": "NotesPayable",
+              "column": "2025-03-31"
+            }
+          },
+          "DepreciationAndAmortization_FY_2024": {
+            "value": 293077000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2024"
+            }
+          },
+          "DepreciationAndAmortization_YTD_2025": {
+            "value": 73900000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2025-03-31"
+            }
+          },
+          "DepreciationAndAmortization_YTD_2024": {
+            "value": 71427000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2024-03-31"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2024": {
+            "value": 154828000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2024"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2025": {
+            "value": 43678000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2025-03-31"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2024": {
+            "value": 39071000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2024-03-31"
+            }
+          },
+          "LoansPayable_YTD_2025": {
+            "value": 1022185000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "LoansPayable",
+            "location": {
+              "row": "LoansPayable",
+              "column": "2025-03-31"
+            }
+          },
+          "SecuredDebt_YTD_2025": {
+            "value": 4142000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "SecuredDebt",
+            "location": {
+              "row": "SecuredDebt",
+              "column": "2025-03-31"
+            }
+          },
+          "CashAndCashEquivalentsAtCarryingValue_YTD_2025": {
+            "value": 9327000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "CashAndCashEquivalentsAtCarryingValue",
+            "location": {
+              "row": "CashAndCashEquivalentsAtCarryingValue",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "(Total Debt + COL) / Total Cap": {
+        "raw_value": 0.4694319949730764,
+        "final_value": "0.47x",
+        "calculation": "(LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability) / (LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability + StockholdersEquity)",
+        "calculation_steps": [
+          {
+            "step": "(Total Debt + COL) / Total Cap_LTM",
+            "formula": "(LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability) / (LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability + StockholdersEquity)",
+            "inputs": {
+              "LineOfCredit": 512000000.0,
+              "OperatingLeaseLiability": 34833000.0,
+              "NotesPayable": 1494303000.0,
+              "LoansPayable": 1022185000.0,
+              "SecuredDebt": 4142000.0,
+              "StockholdersEquity": 3466951000.0
+            },
+            "result": 0.4694319949730764
+          }
+        ],
+        "data_sources": {
+          "LineOfCredit_YTD_2025": {
+            "value": 512000000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "LineOfCredit",
+            "location": {
+              "row": "LineOfCredit",
+              "column": "2025-03-31"
+            }
+          },
+          "OperatingLeaseLiability_YTD_2025": {
+            "value": 34833000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "OperatingLeaseLiability",
+            "location": {
+              "row": "OperatingLeaseLiability",
+              "column": "2025-03-31"
+            }
+          },
+          "NotesPayable_YTD_2025": {
+            "value": 1494303000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "NotesPayable",
+            "location": {
+              "row": "NotesPayable",
+              "column": "2025-03-31"
+            }
+          },
+          "LoansPayable_YTD_2025": {
+            "value": 1022185000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "LoansPayable",
+            "location": {
+              "row": "LoansPayable",
+              "column": "2025-03-31"
+            }
+          },
+          "SecuredDebt_YTD_2025": {
+            "value": 4142000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "SecuredDebt",
+            "location": {
+              "row": "SecuredDebt",
+              "column": "2025-03-31"
+            }
+          },
+          "StockholdersEquity_YTD_2025": {
+            "value": 3466951000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "StockholdersEquity",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2025-03-31"
+            }
+          }
+        }
+      },
+      "(FCF + Rents) / (Total Debt + COL)": {
+        "raw_value": -0.08280882279590658,
+        "final_value": "-0.08x",
+        "calculation": "(NetCashProvidedByUsedInOperatingActivities - PaymentsForCapitalImprovements - PaymentsToAcquireCommercialRealEstate - PaymentsToAcquireIntangibleAssets + DirectCostsOfLeasedAndRentedPropertyOrEquipment) / (LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability)",
+        "calculation_steps": [
+          {
+            "step": "PaymentsToAcquireIntangibleAssets_LTM",
+            "formula": "PaymentsToAcquireIntangibleAssets_FY_2024 + PaymentsToAcquireIntangibleAssets_YTD_2025 - PaymentsToAcquireIntangibleAssets_YTD_2024",
+            "inputs": {
+              "PaymentsToAcquireIntangibleAssets_FY_2024": 81677000.0,
+              "PaymentsToAcquireIntangibleAssets_YTD_2025": 6140000.0,
+              "PaymentsToAcquireIntangibleAssets_YTD_2024": 5715000.0
+            },
+            "result": 82102000.0
+          },
+          {
+            "step": "DirectCostsOfLeasedAndRentedPropertyOrEquipment_LTM",
+            "formula": "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2024 + DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2025 - DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2024",
+            "inputs": {
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2024": 154828000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2025": 43678000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2024": 39071000.0
+            },
+            "result": 159435000.0
+          },
+          {
+            "step": "PaymentsToAcquireCommercialRealEstate_LTM",
+            "formula": "PaymentsToAcquireCommercialRealEstate_FY_2024 + PaymentsToAcquireCommercialRealEstate_YTD_2025 - PaymentsToAcquireCommercialRealEstate_YTD_2024",
+            "inputs": {
+              "PaymentsToAcquireCommercialRealEstate_FY_2024": 624722000.0,
+              "PaymentsToAcquireCommercialRealEstate_YTD_2025": 36745000.0,
+              "PaymentsToAcquireCommercialRealEstate_YTD_2024": 43599000.0
+            },
+            "result": 617868000.0
+          },
+          {
+            "step": "NetCashProvidedByUsedInOperatingActivities_LTM",
+            "formula": "NetCashProvidedByUsedInOperatingActivities_FY_2024 + NetCashProvidedByUsedInOperatingActivities_YTD_2025 - NetCashProvidedByUsedInOperatingActivities_YTD_2024",
+            "inputs": {
+              "NetCashProvidedByUsedInOperatingActivities_FY_2024": 460292000.0,
+              "NetCashProvidedByUsedInOperatingActivities_YTD_2025": 103540000.0,
+              "NetCashProvidedByUsedInOperatingActivities_YTD_2024": 105162000.0
+            },
+            "result": 458670000.0
+          },
+          {
+            "step": "PaymentsForCapitalImprovements_LTM",
+            "formula": "PaymentsForCapitalImprovements_FY_2024 + PaymentsForCapitalImprovements_YTD_2025 - PaymentsForCapitalImprovements_YTD_2024",
+            "inputs": {
+              "PaymentsForCapitalImprovements_FY_2024": 150445000.0,
+              "PaymentsForCapitalImprovements_YTD_2025": 46325000.0,
+              "PaymentsForCapitalImprovements_YTD_2024": 24622000.0
+            },
+            "result": 172148000.0
+          },
+          {
+            "step": "(FCF + Rents) / (Total Debt + COL)_LTM",
+            "formula": "(NetCashProvidedByUsedInOperatingActivities - PaymentsForCapitalImprovements - PaymentsToAcquireCommercialRealEstate - PaymentsToAcquireIntangibleAssets + DirectCostsOfLeasedAndRentedPropertyOrEquipment) / (LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability)",
+            "inputs": {
+              "LineOfCredit": 512000000.0,
+              "OperatingLeaseLiability": 34833000.0,
+              "NotesPayable": 1494303000.0,
+              "PaymentsToAcquireIntangibleAssets": 82102000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment": 159435000.0,
+              "PaymentsToAcquireCommercialRealEstate": 617868000.0,
+              "LoansPayable": 1022185000.0,
+              "SecuredDebt": 4142000.0,
+              "NetCashProvidedByUsedInOperatingActivities": 458670000.0,
+              "PaymentsForCapitalImprovements": 172148000.0
+            },
+            "result": -0.08280882279590658
+          }
+        ],
+        "data_sources": {
+          "LineOfCredit_YTD_2025": {
+            "value": 512000000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "LineOfCredit",
+            "location": {
+              "row": "LineOfCredit",
+              "column": "2025-03-31"
+            }
+          },
+          "OperatingLeaseLiability_YTD_2025": {
+            "value": 34833000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "OperatingLeaseLiability",
+            "location": {
+              "row": "OperatingLeaseLiability",
+              "column": "2025-03-31"
+            }
+          },
+          "NotesPayable_YTD_2025": {
+            "value": 1494303000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "NotesPayable",
+            "location": {
+              "row": "NotesPayable",
+              "column": "2025-03-31"
+            }
+          },
+          "PaymentsToAcquireIntangibleAssets_FY_2024": {
+            "value": 81677000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsToAcquireIntangibleAssets",
+            "location": {
+              "row": "PaymentsToAcquireIntangibleAssets",
+              "column": "2024"
+            }
+          },
+          "PaymentsToAcquireIntangibleAssets_YTD_2025": {
+            "value": 6140000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsToAcquireIntangibleAssets",
+            "location": {
+              "row": "PaymentsToAcquireIntangibleAssets",
+              "column": "2025-03-31"
+            }
+          },
+          "PaymentsToAcquireIntangibleAssets_YTD_2024": {
+            "value": 5715000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsToAcquireIntangibleAssets",
+            "location": {
+              "row": "PaymentsToAcquireIntangibleAssets",
+              "column": "2024-03-31"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2024": {
+            "value": 154828000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2024"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2025": {
+            "value": 43678000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2025-03-31"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_YTD_2024": {
+            "value": 39071000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2024-03-31"
+            }
+          },
+          "PaymentsToAcquireCommercialRealEstate_FY_2024": {
+            "value": 624722000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsToAcquireCommercialRealEstate",
+            "location": {
+              "row": "PaymentsToAcquireCommercialRealEstate",
+              "column": "2024"
+            }
+          },
+          "PaymentsToAcquireCommercialRealEstate_YTD_2025": {
+            "value": 36745000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsToAcquireCommercialRealEstate",
+            "location": {
+              "row": "PaymentsToAcquireCommercialRealEstate",
+              "column": "2025-03-31"
+            }
+          },
+          "PaymentsToAcquireCommercialRealEstate_YTD_2024": {
+            "value": 43599000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsToAcquireCommercialRealEstate",
+            "location": {
+              "row": "PaymentsToAcquireCommercialRealEstate",
+              "column": "2024-03-31"
+            }
+          },
+          "LoansPayable_YTD_2025": {
+            "value": 1022185000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "LoansPayable",
+            "location": {
+              "row": "LoansPayable",
+              "column": "2025-03-31"
+            }
+          },
+          "SecuredDebt_YTD_2025": {
+            "value": 4142000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Balance",
+            "xbrl_key": "SecuredDebt",
+            "location": {
+              "row": "SecuredDebt",
+              "column": "2025-03-31"
+            }
+          },
+          "NetCashProvidedByUsedInOperatingActivities_FY_2024": {
+            "value": 460292000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Cashflow",
+            "xbrl_key": "NetCashProvidedByUsedInOperatingActivities",
+            "location": {
+              "row": "NetCashProvidedByUsedInOperatingActivities",
+              "column": "2024"
+            }
+          },
+          "NetCashProvidedByUsedInOperatingActivities_YTD_2025": {
+            "value": 103540000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Cashflow",
+            "xbrl_key": "NetCashProvidedByUsedInOperatingActivities",
+            "location": {
+              "row": "NetCashProvidedByUsedInOperatingActivities",
+              "column": "2025-03-31"
+            }
+          },
+          "NetCashProvidedByUsedInOperatingActivities_YTD_2024": {
+            "value": 105162000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Cashflow",
+            "xbrl_key": "NetCashProvidedByUsedInOperatingActivities",
+            "location": {
+              "row": "NetCashProvidedByUsedInOperatingActivities",
+              "column": "2024-03-31"
+            }
+          },
+          "PaymentsForCapitalImprovements_FY_2024": {
+            "value": 150445000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsForCapitalImprovements",
+            "location": {
+              "row": "PaymentsForCapitalImprovements",
+              "column": "2024"
+            }
+          },
+          "PaymentsForCapitalImprovements_YTD_2025": {
+            "value": 46325000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2025",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsForCapitalImprovements",
+            "location": {
+              "row": "PaymentsForCapitalImprovements",
+              "column": "2025-03-31"
+            }
+          },
+          "PaymentsForCapitalImprovements_YTD_2024": {
+            "value": 24622000.0,
+            "filing_type": "10-Q",
+            "period": "Q1 2024",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsForCapitalImprovements",
+            "location": {
+              "row": "PaymentsForCapitalImprovements",
+              "column": "2024-03-31"
+            }
+          }
+        }
+      },
+      "3Y Avg (TD+COL)/EBITDAR": {
+        "raw_value": 3.902588476285791,
+        "final_value": "3.90x",
+        "calculation": "Average of 3 years",
+        "calculation_steps": [
+          {
+            "step": "3Y Avg (TD+COL)/EBITDAR_2024",
+            "formula": "((LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability) / (NetIncomeLoss + InterestExpense + DepreciationAndAmortization + DirectCostsOfLeasedAndRentedPropertyOrEquipment))",
+            "inputs": {
+              "LineOfCredit_2024": 409000000.0,
+              "NetIncomeLoss_2024": 189220000.0,
+              "OperatingLeaseLiability_2024": 35304000.0,
+              "InterestExpense_2024": 113169000.0,
+              "NotesPayable_2024": 1594092000.0,
+              "DepreciationAndAmortization_2024": 293077000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_2024": 154828000.0,
+              "LoansPayable_2024": 1021848000.0,
+              "SecuredDebt_2024": 4195000.0
+            },
+            "result": 4.0843176141619155
+          },
+          {
+            "step": "3Y Avg (TD+COL)/EBITDAR_2023",
+            "formula": "((LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability) / (NetIncomeLoss + InterestExpense + DepreciationAndAmortization + DirectCostsOfLeasedAndRentedPropertyOrEquipment))",
+            "inputs": {
+              "LineOfCredit_2023": 402000000.0,
+              "NetIncomeLoss_2023": 192845000.0,
+              "OperatingLeaseLiability_2023": 33577000.0,
+              "InterestExpense_2023": 94575000.0,
+              "NotesPayable_2023": 1195872000.0,
+              "DepreciationAndAmortization_2023": 278447000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_2023": 139596000.0,
+              "LoansPayable_2023": 1021773000.0,
+              "SecuredDebt_2023": 4401000.0
+            },
+            "result": 3.7672039497464787
+          },
+          {
+            "step": "3Y Avg (TD+COL)/EBITDAR_2022",
+            "formula": "((LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability) / (NetIncomeLoss + InterestExpense + DepreciationAndAmortization + DirectCostsOfLeasedAndRentedPropertyOrEquipment))",
+            "inputs": {
+              "LineOfCredit_2022": 175000000.0,
+              "NetIncomeLoss_2022": 178326000.0,
+              "OperatingLeaseLiability_2022": 35100000.0,
+              "InterestExpense_2022": 78018000.0,
+              "NotesPayable_2022": 1295442000.0,
+              "DepreciationAndAmortization_2022": 275040000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_2022": 125701000.0,
+              "LoansPayable_2022": 1020440000.0,
+              "SecuredDebt_2022": 7898000.0
+            },
+            "result": 3.856243864948979
+          },
+          {
+            "step": "3Y_Avg_3Y_Avg_(TD+COL)/EBITDAR_final",
+            "formula": "Average of 3 years: FY_2024_ratio + FY_2023_ratio + FY_2022_ratio / 3",
+            "inputs": {
+              "FY_2024_ratio": 4.0843176141619155,
+              "FY_2023_ratio": 3.7672039497464787,
+              "FY_2022_ratio": 3.856243864948979
+            },
+            "result": 3.902588476285791
+          }
+        ],
+        "data_sources": {
+          "LineOfCredit_FY_2024": {
+            "value": 409000000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Balance",
+            "xbrl_key": "LineOfCredit",
+            "location": {
+              "row": "LineOfCredit",
+              "column": "2024"
+            }
+          },
+          "NetIncomeLoss_FY_2024": {
+            "value": 189220000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2024"
+            }
+          },
+          "OperatingLeaseLiability_FY_2024": {
+            "value": 35304000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Balance",
+            "xbrl_key": "OperatingLeaseLiability",
+            "location": {
+              "row": "OperatingLeaseLiability",
+              "column": "2024"
+            }
+          },
+          "InterestExpense_FY_2024": {
+            "value": 113169000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2024"
+            }
+          },
+          "NotesPayable_FY_2024": {
+            "value": 1594092000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Balance",
+            "xbrl_key": "NotesPayable",
+            "location": {
+              "row": "NotesPayable",
+              "column": "2024"
+            }
+          },
+          "DepreciationAndAmortization_FY_2024": {
+            "value": 293077000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2024"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2024": {
+            "value": 154828000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2024"
+            }
+          },
+          "LoansPayable_FY_2024": {
+            "value": 1021848000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Balance",
+            "xbrl_key": "LoansPayable",
+            "location": {
+              "row": "LoansPayable",
+              "column": "2024"
+            }
+          },
+          "SecuredDebt_FY_2024": {
+            "value": 4195000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Balance",
+            "xbrl_key": "SecuredDebt",
+            "location": {
+              "row": "SecuredDebt",
+              "column": "2024"
+            }
+          },
+          "LineOfCredit_FY_2023": {
+            "value": 402000000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Balance",
+            "xbrl_key": "LineOfCredit",
+            "location": {
+              "row": "LineOfCredit",
+              "column": "2023"
+            }
+          },
+          "NetIncomeLoss_FY_2023": {
+            "value": 192845000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2023"
+            }
+          },
+          "OperatingLeaseLiability_FY_2023": {
+            "value": 33577000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Balance",
+            "xbrl_key": "OperatingLeaseLiability",
+            "location": {
+              "row": "OperatingLeaseLiability",
+              "column": "2023"
+            }
+          },
+          "InterestExpense_FY_2023": {
+            "value": 94575000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2023"
+            }
+          },
+          "NotesPayable_FY_2023": {
+            "value": 1195872000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Balance",
+            "xbrl_key": "NotesPayable",
+            "location": {
+              "row": "NotesPayable",
+              "column": "2023"
+            }
+          },
+          "DepreciationAndAmortization_FY_2023": {
+            "value": 278447000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2023"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2023": {
+            "value": 139596000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2023"
+            }
+          },
+          "LoansPayable_FY_2023": {
+            "value": 1021773000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Balance",
+            "xbrl_key": "LoansPayable",
+            "location": {
+              "row": "LoansPayable",
+              "column": "2023"
+            }
+          },
+          "SecuredDebt_FY_2023": {
+            "value": 4401000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Balance",
+            "xbrl_key": "SecuredDebt",
+            "location": {
+              "row": "SecuredDebt",
+              "column": "2023"
+            }
+          },
+          "LineOfCredit_FY_2022": {
+            "value": 175000000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Balance",
+            "xbrl_key": "LineOfCredit",
+            "location": {
+              "row": "LineOfCredit",
+              "column": "2022"
+            }
+          },
+          "NetIncomeLoss_FY_2022": {
+            "value": 178326000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Income",
+            "xbrl_key": "NetIncomeLoss",
+            "location": {
+              "row": "NetIncomeLoss",
+              "column": "2022"
+            }
+          },
+          "OperatingLeaseLiability_FY_2022": {
+            "value": 35100000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Balance",
+            "xbrl_key": "OperatingLeaseLiability",
+            "location": {
+              "row": "OperatingLeaseLiability",
+              "column": "2022"
+            }
+          },
+          "InterestExpense_FY_2022": {
+            "value": 78018000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Income",
+            "xbrl_key": "InterestExpense",
+            "location": {
+              "row": "InterestExpense",
+              "column": "2022"
+            }
+          },
+          "NotesPayable_FY_2022": {
+            "value": 1295442000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Balance",
+            "xbrl_key": "NotesPayable",
+            "location": {
+              "row": "NotesPayable",
+              "column": "2022"
+            }
+          },
+          "DepreciationAndAmortization_FY_2022": {
+            "value": 275040000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Income",
+            "xbrl_key": "DepreciationAndAmortization",
+            "location": {
+              "row": "DepreciationAndAmortization",
+              "column": "2022"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2022": {
+            "value": 125701000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2022"
+            }
+          },
+          "LoansPayable_FY_2022": {
+            "value": 1020440000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Balance",
+            "xbrl_key": "LoansPayable",
+            "location": {
+              "row": "LoansPayable",
+              "column": "2022"
+            }
+          },
+          "SecuredDebt_FY_2022": {
+            "value": 7898000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Balance",
+            "xbrl_key": "SecuredDebt",
+            "location": {
+              "row": "SecuredDebt",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "3Y Avg (TD+COL)/Total Cap": {
+        "raw_value": 0.4461781992764964,
+        "final_value": "0.45x",
+        "calculation": "Average of 3 years",
+        "calculation_steps": [
+          {
+            "step": "3Y Avg (TD+COL)/Total Cap_2024",
+            "formula": "(LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability) / (LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability + StockholdersEquity)",
+            "inputs": {
+              "LineOfCredit_2024": 409000000.0,
+              "OperatingLeaseLiability_2024": 35304000.0,
+              "NotesPayable_2024": 1594092000.0,
+              "LoansPayable_2024": 1021848000.0,
+              "SecuredDebt_2024": 4195000.0,
+              "StockholdersEquity_2024": 3457651000.0
+            },
+            "result": 0.46985536844784415
+          },
+          {
+            "step": "3Y Avg (TD+COL)/Total Cap_2023",
+            "formula": "(LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability) / (LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability + StockholdersEquity)",
+            "inputs": {
+              "LineOfCredit_2023": 402000000.0,
+              "OperatingLeaseLiability_2023": 33577000.0,
+              "NotesPayable_2023": 1195872000.0,
+              "LoansPayable_2023": 1021773000.0,
+              "SecuredDebt_2023": 4401000.0,
+              "StockholdersEquity_2023": 3374680000.0
+            },
+            "result": 0.44056523685895754
+          },
+          {
+            "step": "3Y Avg (TD+COL)/Total Cap_2022",
+            "formula": "(LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability) / (LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability + StockholdersEquity)",
+            "inputs": {
+              "LineOfCredit_2022": 175000000.0,
+              "OperatingLeaseLiability_2022": 35100000.0,
+              "NotesPayable_2022": 1295442000.0,
+              "LoansPayable_2022": 1020440000.0,
+              "SecuredDebt_2022": 7898000.0,
+              "StockholdersEquity_2022": 3384824000.0
+            },
+            "result": 0.4281139925226874
+          },
+          {
+            "step": "3Y_Avg_3Y_Avg_(TD+COL)/Total_Cap_final",
+            "formula": "Average of 3 years: FY_2024_ratio + FY_2023_ratio + FY_2022_ratio / 3",
+            "inputs": {
+              "FY_2024_ratio": 0.46985536844784415,
+              "FY_2023_ratio": 0.44056523685895754,
+              "FY_2022_ratio": 0.4281139925226874
+            },
+            "result": 0.4461781992764964
+          }
+        ],
+        "data_sources": {
+          "LineOfCredit_FY_2024": {
+            "value": 409000000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Balance",
+            "xbrl_key": "LineOfCredit",
+            "location": {
+              "row": "LineOfCredit",
+              "column": "2024"
+            }
+          },
+          "OperatingLeaseLiability_FY_2024": {
+            "value": 35304000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Balance",
+            "xbrl_key": "OperatingLeaseLiability",
+            "location": {
+              "row": "OperatingLeaseLiability",
+              "column": "2024"
+            }
+          },
+          "NotesPayable_FY_2024": {
+            "value": 1594092000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Balance",
+            "xbrl_key": "NotesPayable",
+            "location": {
+              "row": "NotesPayable",
+              "column": "2024"
+            }
+          },
+          "LoansPayable_FY_2024": {
+            "value": 1021848000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Balance",
+            "xbrl_key": "LoansPayable",
+            "location": {
+              "row": "LoansPayable",
+              "column": "2024"
+            }
+          },
+          "SecuredDebt_FY_2024": {
+            "value": 4195000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Balance",
+            "xbrl_key": "SecuredDebt",
+            "location": {
+              "row": "SecuredDebt",
+              "column": "2024"
+            }
+          },
+          "StockholdersEquity_FY_2024": {
+            "value": 3457651000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Balance",
+            "xbrl_key": "StockholdersEquity",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2024"
+            }
+          },
+          "LineOfCredit_FY_2023": {
+            "value": 402000000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Balance",
+            "xbrl_key": "LineOfCredit",
+            "location": {
+              "row": "LineOfCredit",
+              "column": "2023"
+            }
+          },
+          "OperatingLeaseLiability_FY_2023": {
+            "value": 33577000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Balance",
+            "xbrl_key": "OperatingLeaseLiability",
+            "location": {
+              "row": "OperatingLeaseLiability",
+              "column": "2023"
+            }
+          },
+          "NotesPayable_FY_2023": {
+            "value": 1195872000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Balance",
+            "xbrl_key": "NotesPayable",
+            "location": {
+              "row": "NotesPayable",
+              "column": "2023"
+            }
+          },
+          "LoansPayable_FY_2023": {
+            "value": 1021773000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Balance",
+            "xbrl_key": "LoansPayable",
+            "location": {
+              "row": "LoansPayable",
+              "column": "2023"
+            }
+          },
+          "SecuredDebt_FY_2023": {
+            "value": 4401000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Balance",
+            "xbrl_key": "SecuredDebt",
+            "location": {
+              "row": "SecuredDebt",
+              "column": "2023"
+            }
+          },
+          "StockholdersEquity_FY_2023": {
+            "value": 3374680000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Balance",
+            "xbrl_key": "StockholdersEquity",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2023"
+            }
+          },
+          "LineOfCredit_FY_2022": {
+            "value": 175000000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Balance",
+            "xbrl_key": "LineOfCredit",
+            "location": {
+              "row": "LineOfCredit",
+              "column": "2022"
+            }
+          },
+          "OperatingLeaseLiability_FY_2022": {
+            "value": 35100000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Balance",
+            "xbrl_key": "OperatingLeaseLiability",
+            "location": {
+              "row": "OperatingLeaseLiability",
+              "column": "2022"
+            }
+          },
+          "NotesPayable_FY_2022": {
+            "value": 1295442000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Balance",
+            "xbrl_key": "NotesPayable",
+            "location": {
+              "row": "NotesPayable",
+              "column": "2022"
+            }
+          },
+          "LoansPayable_FY_2022": {
+            "value": 1020440000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Balance",
+            "xbrl_key": "LoansPayable",
+            "location": {
+              "row": "LoansPayable",
+              "column": "2022"
+            }
+          },
+          "SecuredDebt_FY_2022": {
+            "value": 7898000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Balance",
+            "xbrl_key": "SecuredDebt",
+            "location": {
+              "row": "SecuredDebt",
+              "column": "2022"
+            }
+          },
+          "StockholdersEquity_FY_2022": {
+            "value": 3384824000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Balance",
+            "xbrl_key": "StockholdersEquity",
+            "location": {
+              "row": "StockholdersEquity",
+              "column": "2022"
+            }
+          }
+        }
+      },
+      "3Y Avg (FCF+Rents)/(TD+COL)": {
+        "raw_value": -0.022777601159870976,
+        "final_value": "-0.02x",
+        "calculation": "Average of 3 years",
+        "calculation_steps": [
+          {
+            "step": "3Y Avg (FCF+Rents)/(TD+COL)_2024",
+            "formula": "(NetCashProvidedByUsedInOperatingActivities - PaymentsForCapitalImprovements - PaymentsToAcquireCommercialRealEstate - PaymentsToAcquireIntangibleAssets + DirectCostsOfLeasedAndRentedPropertyOrEquipment) / (LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability)",
+            "inputs": {
+              "LineOfCredit_2024": 409000000.0,
+              "OperatingLeaseLiability_2024": 35304000.0,
+              "NotesPayable_2024": 1594092000.0,
+              "PaymentsToAcquireIntangibleAssets_2024": 81677000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_2024": 154828000.0,
+              "PaymentsToAcquireCommercialRealEstate_2024": 624722000.0,
+              "LoansPayable_2024": 1021848000.0,
+              "SecuredDebt_2024": 4195000.0,
+              "NetCashProvidedByUsedInOperatingActivities_2024": 460292000.0,
+              "PaymentsForCapitalImprovements_2024": 150445000.0
+            },
+            "result": -0.07888034318842699
+          },
+          {
+            "step": "3Y Avg (FCF+Rents)/(TD+COL)_2023",
+            "formula": "(NetCashProvidedByUsedInOperatingActivities - PaymentsForCapitalImprovements - PaymentsToAcquireCommercialRealEstate - PaymentsToAcquireIntangibleAssets + DirectCostsOfLeasedAndRentedPropertyOrEquipment) / (LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability)",
+            "inputs": {
+              "LineOfCredit_2023": 402000000.0,
+              "OperatingLeaseLiability_2023": 33577000.0,
+              "NotesPayable_2023": 1195872000.0,
+              "PaymentsToAcquireIntangibleAssets_2023": 18462000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_2023": 139596000.0,
+              "PaymentsToAcquireCommercialRealEstate_2023": 303991000.0,
+              "LoansPayable_2023": 1021773000.0,
+              "SecuredDebt_2023": 4401000.0,
+              "NetCashProvidedByUsedInOperatingActivities_2023": 391092000.0,
+              "PaymentsForCapitalImprovements_2023": 107856000.0
+            },
+            "result": 0.03777021797297811
+          },
+          {
+            "step": "3Y Avg (FCF+Rents)/(TD+COL)_2022",
+            "formula": "(NetCashProvidedByUsedInOperatingActivities - PaymentsForCapitalImprovements - PaymentsToAcquireCommercialRealEstate - PaymentsToAcquireIntangibleAssets + DirectCostsOfLeasedAndRentedPropertyOrEquipment) / (LineOfCredit + LoansPayable + NotesPayable + SecuredDebt + OperatingLeaseLiability)",
+            "inputs": {
+              "LineOfCredit_2022": 175000000.0,
+              "OperatingLeaseLiability_2022": 35100000.0,
+              "NotesPayable_2022": 1295442000.0,
+              "PaymentsToAcquireIntangibleAssets_2022": 49174000.0,
+              "DirectCostsOfLeasedAndRentedPropertyOrEquipment_2022": 125701000.0,
+              "PaymentsToAcquireCommercialRealEstate_2022": 421784000.0,
+              "LoansPayable_2022": 1020440000.0,
+              "SecuredDebt_2022": 7898000.0,
+              "NetCashProvidedByUsedInOperatingActivities_2022": 387931000.0,
+              "PaymentsForCapitalImprovements_2022": 111653000.0
+            },
+            "result": -0.02722267826416405
+          },
+          {
+            "step": "3Y_Avg_3Y_Avg_(FCF+Rents)/(TD+COL)_final",
+            "formula": "Average of 3 years: FY_2024_ratio + FY_2023_ratio + FY_2022_ratio / 3",
+            "inputs": {
+              "FY_2024_ratio": -0.07888034318842699,
+              "FY_2023_ratio": 0.03777021797297811,
+              "FY_2022_ratio": -0.02722267826416405
+            },
+            "result": -0.022777601159870976
+          }
+        ],
+        "data_sources": {
+          "LineOfCredit_FY_2024": {
+            "value": 409000000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Balance",
+            "xbrl_key": "LineOfCredit",
+            "location": {
+              "row": "LineOfCredit",
+              "column": "2024"
+            }
+          },
+          "OperatingLeaseLiability_FY_2024": {
+            "value": 35304000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Balance",
+            "xbrl_key": "OperatingLeaseLiability",
+            "location": {
+              "row": "OperatingLeaseLiability",
+              "column": "2024"
+            }
+          },
+          "NotesPayable_FY_2024": {
+            "value": 1594092000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Balance",
+            "xbrl_key": "NotesPayable",
+            "location": {
+              "row": "NotesPayable",
+              "column": "2024"
+            }
+          },
+          "PaymentsToAcquireIntangibleAssets_FY_2024": {
+            "value": 81677000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsToAcquireIntangibleAssets",
+            "location": {
+              "row": "PaymentsToAcquireIntangibleAssets",
+              "column": "2024"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2024": {
+            "value": 154828000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2024"
+            }
+          },
+          "PaymentsToAcquireCommercialRealEstate_FY_2024": {
+            "value": 624722000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsToAcquireCommercialRealEstate",
+            "location": {
+              "row": "PaymentsToAcquireCommercialRealEstate",
+              "column": "2024"
+            }
+          },
+          "LoansPayable_FY_2024": {
+            "value": 1021848000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Balance",
+            "xbrl_key": "LoansPayable",
+            "location": {
+              "row": "LoansPayable",
+              "column": "2024"
+            }
+          },
+          "SecuredDebt_FY_2024": {
+            "value": 4195000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Balance",
+            "xbrl_key": "SecuredDebt",
+            "location": {
+              "row": "SecuredDebt",
+              "column": "2024"
+            }
+          },
+          "NetCashProvidedByUsedInOperatingActivities_FY_2024": {
+            "value": 460292000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Cashflow",
+            "xbrl_key": "NetCashProvidedByUsedInOperatingActivities",
+            "location": {
+              "row": "NetCashProvidedByUsedInOperatingActivities",
+              "column": "2024"
+            }
+          },
+          "PaymentsForCapitalImprovements_FY_2024": {
+            "value": 150445000.0,
+            "filing_type": "10-K",
+            "period": "2024",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsForCapitalImprovements",
+            "location": {
+              "row": "PaymentsForCapitalImprovements",
+              "column": "2024"
+            }
+          },
+          "LineOfCredit_FY_2023": {
+            "value": 402000000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Balance",
+            "xbrl_key": "LineOfCredit",
+            "location": {
+              "row": "LineOfCredit",
+              "column": "2023"
+            }
+          },
+          "OperatingLeaseLiability_FY_2023": {
+            "value": 33577000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Balance",
+            "xbrl_key": "OperatingLeaseLiability",
+            "location": {
+              "row": "OperatingLeaseLiability",
+              "column": "2023"
+            }
+          },
+          "NotesPayable_FY_2023": {
+            "value": 1195872000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Balance",
+            "xbrl_key": "NotesPayable",
+            "location": {
+              "row": "NotesPayable",
+              "column": "2023"
+            }
+          },
+          "PaymentsToAcquireIntangibleAssets_FY_2023": {
+            "value": 18462000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsToAcquireIntangibleAssets",
+            "location": {
+              "row": "PaymentsToAcquireIntangibleAssets",
+              "column": "2023"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2023": {
+            "value": 139596000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2023"
+            }
+          },
+          "PaymentsToAcquireCommercialRealEstate_FY_2023": {
+            "value": 303991000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsToAcquireCommercialRealEstate",
+            "location": {
+              "row": "PaymentsToAcquireCommercialRealEstate",
+              "column": "2023"
+            }
+          },
+          "LoansPayable_FY_2023": {
+            "value": 1021773000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Balance",
+            "xbrl_key": "LoansPayable",
+            "location": {
+              "row": "LoansPayable",
+              "column": "2023"
+            }
+          },
+          "SecuredDebt_FY_2023": {
+            "value": 4401000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Balance",
+            "xbrl_key": "SecuredDebt",
+            "location": {
+              "row": "SecuredDebt",
+              "column": "2023"
+            }
+          },
+          "NetCashProvidedByUsedInOperatingActivities_FY_2023": {
+            "value": 391092000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Cashflow",
+            "xbrl_key": "NetCashProvidedByUsedInOperatingActivities",
+            "location": {
+              "row": "NetCashProvidedByUsedInOperatingActivities",
+              "column": "2023"
+            }
+          },
+          "PaymentsForCapitalImprovements_FY_2023": {
+            "value": 107856000.0,
+            "filing_type": "10-K",
+            "period": "2023",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsForCapitalImprovements",
+            "location": {
+              "row": "PaymentsForCapitalImprovements",
+              "column": "2023"
+            }
+          },
+          "LineOfCredit_FY_2022": {
+            "value": 175000000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Balance",
+            "xbrl_key": "LineOfCredit",
+            "location": {
+              "row": "LineOfCredit",
+              "column": "2022"
+            }
+          },
+          "OperatingLeaseLiability_FY_2022": {
+            "value": 35100000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Balance",
+            "xbrl_key": "OperatingLeaseLiability",
+            "location": {
+              "row": "OperatingLeaseLiability",
+              "column": "2022"
+            }
+          },
+          "NotesPayable_FY_2022": {
+            "value": 1295442000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Balance",
+            "xbrl_key": "NotesPayable",
+            "location": {
+              "row": "NotesPayable",
+              "column": "2022"
+            }
+          },
+          "PaymentsToAcquireIntangibleAssets_FY_2022": {
+            "value": 49174000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsToAcquireIntangibleAssets",
+            "location": {
+              "row": "PaymentsToAcquireIntangibleAssets",
+              "column": "2022"
+            }
+          },
+          "DirectCostsOfLeasedAndRentedPropertyOrEquipment_FY_2022": {
+            "value": 125701000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Income",
+            "xbrl_key": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+            "location": {
+              "row": "DirectCostsOfLeasedAndRentedPropertyOrEquipment",
+              "column": "2022"
+            }
+          },
+          "PaymentsToAcquireCommercialRealEstate_FY_2022": {
+            "value": 421784000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsToAcquireCommercialRealEstate",
+            "location": {
+              "row": "PaymentsToAcquireCommercialRealEstate",
+              "column": "2022"
+            }
+          },
+          "LoansPayable_FY_2022": {
+            "value": 1020440000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Balance",
+            "xbrl_key": "LoansPayable",
+            "location": {
+              "row": "LoansPayable",
+              "column": "2022"
+            }
+          },
+          "SecuredDebt_FY_2022": {
+            "value": 7898000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Balance",
+            "xbrl_key": "SecuredDebt",
+            "location": {
+              "row": "SecuredDebt",
+              "column": "2022"
+            }
+          },
+          "NetCashProvidedByUsedInOperatingActivities_FY_2022": {
+            "value": 387931000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Cashflow",
+            "xbrl_key": "NetCashProvidedByUsedInOperatingActivities",
+            "location": {
+              "row": "NetCashProvidedByUsedInOperatingActivities",
+              "column": "2022"
+            }
+          },
+          "PaymentsForCapitalImprovements_FY_2022": {
+            "value": 111653000.0,
+            "filing_type": "10-K",
+            "period": "2022",
+            "table": "Cashflow",
+            "xbrl_key": "PaymentsForCapitalImprovements",
+            "location": {
+              "row": "PaymentsForCapitalImprovements",
+              "column": "2022"
+            }
+          }
+        }
+      }
+    },
+    "AVERAGE": {
+      "LTM Revenue": {
+        "raw_value": 785415000.0,
+        "final_value": "785415.0",
+        "calculation": "Average across comparable companies",
+        "calculation_steps": [
+          {
+            "step": "LTM Revenue_Average_final",
+            "formula": "(Company_1) / 1",
+            "inputs": {
+              "Company_1": 785415000.0
+            },
+            "result": 785415000.0
+          }
+        ],
+        "data_sources": {}
+      },
+      "LTM EBITDA": {
+        "raw_value": 659818000.0,
+        "final_value": "659818.0",
+        "calculation": "Average across comparable companies",
+        "calculation_steps": [
+          {
+            "step": "LTM EBITDA_Average_final",
+            "formula": "(Company_1) / 1",
+            "inputs": {
+              "Company_1": 659818000.0
+            },
+            "result": 659818000.0
+          }
+        ],
+        "data_sources": {}
+      },
+      "EBITDA Margin %": {
+        "raw_value": 84.00883609302089,
+        "final_value": "84.0%",
+        "calculation": "Average across comparable companies",
+        "calculation_steps": [
+          {
+            "step": "EBITDA Margin %_Average_final",
+            "formula": "(Company_1) / 1",
+            "inputs": {
+              "Company_1": 84.00883609302089
+            },
+            "result": 84.00883609302089
+          }
+        ],
+        "data_sources": {}
+      },
+      "EBITDAR / (Int + Rents)": {
+        "raw_value": 2.9289161709186593,
+        "final_value": "2.93x",
+        "calculation": "Average across comparable companies",
+        "calculation_steps": [
+          {
+            "step": "EBITDAR / (Int + Rents)_Average_final",
+            "formula": "(Company_1) / 1",
+            "inputs": {
+              "Company_1": 2.9289161709186593
+            },
+            "result": 2.9289161709186593
+          }
+        ],
+        "data_sources": {}
+      },
+      "(Total Debt + COL) / EBITDAR": {
+        "raw_value": 3.744219429162908,
+        "final_value": "3.74x",
+        "calculation": "Average across comparable companies",
+        "calculation_steps": [
+          {
+            "step": "(Total Debt + COL) / EBITDAR_Average_final",
+            "formula": "(Company_1) / 1",
+            "inputs": {
+              "Company_1": 3.744219429162908
+            },
+            "result": 3.744219429162908
+          }
+        ],
+        "data_sources": {}
+      },
+      "(Net Debt + COL) / EBITDAR": {
+        "raw_value": 3.6855647766929143,
+        "final_value": "3.69x",
+        "calculation": "Average across comparable companies",
+        "calculation_steps": [
+          {
+            "step": "(Net Debt + COL) / EBITDAR_Average_final",
+            "formula": "(Company_1) / 1",
+            "inputs": {
+              "Company_1": 3.6855647766929143
+            },
+            "result": 3.6855647766929143
+          }
+        ],
+        "data_sources": {}
+      },
+      "(Total Debt + COL) / Total Cap": {
+        "raw_value": 0.4694319949730764,
+        "final_value": "0.47x",
+        "calculation": "Average across comparable companies",
+        "calculation_steps": [
+          {
+            "step": "(Total Debt + COL) / Total Cap_Average_final",
+            "formula": "(Company_1) / 1",
+            "inputs": {
+              "Company_1": 0.4694319949730764
+            },
+            "result": 0.4694319949730764
+          }
+        ],
+        "data_sources": {}
+      },
+      "(FCF + Rents) / (Total Debt + COL)": {
+        "raw_value": -0.08280882279590658,
+        "final_value": "-0.08x",
+        "calculation": "Average across comparable companies",
+        "calculation_steps": [
+          {
+            "step": "(FCF + Rents) / (Total Debt + COL)_Average_final",
+            "formula": "(Company_1) / 1",
+            "inputs": {
+              "Company_1": -0.08280882279590658
+            },
+            "result": -0.08280882279590658
+          }
+        ],
+        "data_sources": {}
+      },
+      "3Y Avg (TD+COL)/EBITDAR": {
+        "raw_value": 3.902588476285791,
+        "final_value": "3.90x",
+        "calculation": "Average across comparable companies",
+        "calculation_steps": [
+          {
+            "step": "3Y Avg (TD+COL)/EBITDAR_Average_final",
+            "formula": "(Company_1) / 1",
+            "inputs": {
+              "Company_1": 3.902588476285791
+            },
+            "result": 3.902588476285791
+          }
+        ],
+        "data_sources": {}
+      },
+      "3Y Avg (TD+COL)/Total Cap": {
+        "raw_value": 0.4461781992764964,
+        "final_value": "0.45x",
+        "calculation": "Average across comparable companies",
+        "calculation_steps": [
+          {
+            "step": "3Y Avg (TD+COL)/Total Cap_Average_final",
+            "formula": "(Company_1) / 1",
+            "inputs": {
+              "Company_1": 0.4461781992764964
+            },
+            "result": 0.4461781992764964
+          }
+        ],
+        "data_sources": {}
+      },
+      "3Y Avg (FCF+Rents)/(TD+COL)": {
+        "raw_value": -0.022777601159870976,
+        "final_value": "-0.02x",
+        "calculation": "Average across comparable companies",
+        "calculation_steps": [
+          {
+            "step": "3Y Avg (FCF+Rents)/(TD+COL)_Average_final",
+            "formula": "(Company_1) / 1",
+            "inputs": {
+              "Company_1": -0.022777601159870976
+            },
+            "result": -0.022777601159870976
+          }
+        ],
+        "data_sources": {}
+      }
+    },
+    "MEDIAN": {
+      "LTM Revenue": {
+        "raw_value": 785415000.0,
+        "final_value": "785415.0",
+        "calculation": "Median across comparable companies",
+        "calculation_steps": [],
+        "data_sources": {}
+      },
+      "LTM EBITDA": {
+        "raw_value": 659818000.0,
+        "final_value": "659818.0",
+        "calculation": "Median across comparable companies",
+        "calculation_steps": [],
+        "data_sources": {}
+      },
+      "EBITDA Margin %": {
+        "raw_value": 84.00883609302089,
+        "final_value": "84.0%",
+        "calculation": "Median across comparable companies",
+        "calculation_steps": [],
+        "data_sources": {}
+      },
+      "EBITDAR / (Int + Rents)": {
+        "raw_value": 2.9289161709186593,
+        "final_value": "2.93x",
+        "calculation": "Median across comparable companies",
+        "calculation_steps": [],
+        "data_sources": {}
+      },
+      "(Total Debt + COL) / EBITDAR": {
+        "raw_value": 3.744219429162908,
+        "final_value": "3.74x",
+        "calculation": "Median across comparable companies",
+        "calculation_steps": [],
+        "data_sources": {}
+      },
+      "(Net Debt + COL) / EBITDAR": {
+        "raw_value": 3.6855647766929143,
+        "final_value": "3.69x",
+        "calculation": "Median across comparable companies",
+        "calculation_steps": [],
+        "data_sources": {}
+      },
+      "(Total Debt + COL) / Total Cap": {
+        "raw_value": 0.4694319949730764,
+        "final_value": "0.47x",
+        "calculation": "Median across comparable companies",
+        "calculation_steps": [],
+        "data_sources": {}
+      },
+      "(FCF + Rents) / (Total Debt + COL)": {
+        "raw_value": -0.08280882279590658,
+        "final_value": "-0.08x",
+        "calculation": "Median across comparable companies",
+        "calculation_steps": [],
+        "data_sources": {}
+      },
+      "3Y Avg (TD+COL)/EBITDAR": {
+        "raw_value": 3.902588476285791,
+        "final_value": "3.90x",
+        "calculation": "Median across comparable companies",
+        "calculation_steps": [],
+        "data_sources": {}
+      },
+      "3Y Avg (TD+COL)/Total Cap": {
+        "raw_value": 0.4461781992764964,
+        "final_value": "0.45x",
+        "calculation": "Median across comparable companies",
+        "calculation_steps": [],
+        "data_sources": {}
+      },
+      "3Y Avg (FCF+Rents)/(TD+COL)": {
+        "raw_value": -0.022777601159870976,
+        "final_value": "-0.02x",
+        "calculation": "Median across comparable companies",
+        "calculation_steps": [],
+        "data_sources": {}
+      }
+    }
+  }
+}
