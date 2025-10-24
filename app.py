@@ -277,7 +277,7 @@ async def lineage_chat_start(req: LineageChatStartRequest):
 
     # Truncate context if it's too large to avoid exceeding OpenAI token limit
     # Keep around 40,000 characters to stay well under the 30,000 token limit
-    MAX_CONTEXT_LENGTH = 100000
+    MAX_CONTEXT_LENGTH = 40000
     if len(context_json) > MAX_CONTEXT_LENGTH:
         context_json = context_json[:MAX_CONTEXT_LENGTH] + "\n\n[Content truncated due to size limits. Showing first portion of logs...]"
 
